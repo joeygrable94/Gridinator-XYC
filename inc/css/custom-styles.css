@@ -1,0 +1,36 @@
+/**
+ * 
+ * Custom Styles
+ * 
+ * @author => Joey Grable
+ */
+
+.gy {
+	border-bottom: 1px solid red;
+}
+
+.gy-title {
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+}
+
+.gcol {
+	border-right: 1px solid blue;
+}
+
+.gcol:last-child {
+	border-right: none;
+}
+
+div:hover {
+	background-color: rgba(0, 0, 0, 0.15);
+	-webkit-transition: all .1s ease;
+	transition: all .1s ease;
+	cursor: default;
+}
+
+.borders-green,
+.contain {
+	border-left: 2px solid darkgreen;
+	border-right: 2px solid darkgreen;
+}
