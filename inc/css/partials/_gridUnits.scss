@@ -93,23 +93,23 @@
 /**
  * inches
  **/
-.in-1	 	{	height: calc( var(--inch-base) * 1 );	}
-.in-2	 	{	height: calc( var(--inch-base) * 2 );	}
-.in-3	 	{	height: calc( var(--inch-base) * 3 );	}
-.in-4	 	{	height: calc( var(--inch-base) * 4 );	}
-.in-5	 	{	height: calc( var(--inch-base) * 5 );	}
-.in-6	 	{	height: calc( var(--inch-base) * 6 );	}
-.in-7	 	{	height: calc( var(--inch-base) * 7 );	}
-.in-8	 	{	height: calc( var(--inch-base) * 8 );	}
-.in-9	 	{	height: calc( var(--inch-base) * 9 );	}
-.in-10	 	{	height: calc( var(--inch-base) * 10 );	}
-.in-11	 	{	height: calc( var(--inch-base) * 11 );	}
-.in-12	 	{	height: calc( var(--inch-base) * 12 );	}
-.in-13	 	{	height: calc( var(--inch-base) * 13 );	}
-.in-14	 	{	height: calc( var(--inch-base) * 14 );	}
-.in-15	 	{	height: calc( var(--inch-base) * 15 );	}
-.in-16	 	{	height: calc( var(--inch-base) * 16 );	}
-.in-17	 	{	height: calc( var(--inch-base) * 17 );	}
-.in-18	 	{	height: calc( var(--inch-base) * 18 );	}
-.in-19	 	{	height: calc( var(--inch-base) * 19 );	}
-.in-20	 	{	height: calc( var(--inch-base) * 20 );	}
+.in-1	 	{	height: $inch-base * 1;		}
+.in-2	 	{	height: $inch-base * 2;		}
+.in-3	 	{	height: $inch-base * 3;		}
+.in-4	 	{	height: $inch-base * 4;		}
+.in-5	 	{	height: $inch-base * 5;		}
+.in-6	 	{	height: $inch-base * 6;		}
+.in-7	 	{	height: $inch-base * 7;		}
+.in-8	 	{	height: $inch-base * 8;		}
+.in-9	 	{	height: $inch-base * 9;		}
+.in-10	 	{	height: $inch-base * 10;	}
+.in-11	 	{	height: $inch-base * 11;	}
+.in-12	 	{	height: $inch-base * 12;	}
+.in-13	 	{	height: $inch-base * 13;	}
+.in-14	 	{	height: $inch-base * 14;	}
+.in-15	 	{	height: $inch-base * 15;	}
+.in-16	 	{	height: $inch-base * 16;	}
+.in-17	 	{	height: $inch-base * 17;	}
+.in-18	 	{	height: $inch-base * 18;	}
+.in-19	 	{	height: $inch-base * 19;	}
+.in-20	 	{	height: $inch-base * 20;	}

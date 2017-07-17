@@ -29,13 +29,13 @@
  * typography
  */
 html {
-	font-size: var(--typo-grid-base);
-} 
+	font-size: $typo-grid-base;
+}
 body {
-	font-family: var(--font-primary);
-	font-size: var(--font-size-base);
-	line-height: var(--line-height-base);
-	font-weight: var(--font-weight-base);
+	font-family: $font-primary;
+	font-size: $font-size-base;
+	line-height: $line-height-base;
+	font-weight: $font-weight-base;
 }
 
 
@@ -61,6 +61,7 @@ body {
 .baseline-grid-48px {	background: url("../images/baseline-grid/baseline-grid-48px.jpg") repeat;	}
 .baseline-grid-50px {	background: url("../images/baseline-grid/baseline-grid-50px.jpg") repeat;	}
 .baseline-grid-72px {	background: url("../images/baseline-grid/baseline-grid-72px.jpg") repeat;	}
+.baseline-grid-96px {	background: url("../images/baseline-grid/baseline-grid-96px.jpg") repeat;	}
 
 
 
@@ -70,61 +71,61 @@ body {
  * headings
  */
 h1, h2, h3, h4, h5, h6 {
-	font-family: var(--font-primary);
+	font-family: $font-primary;
 }
 
 /*
-var(--font-primary)
-var(--font-secondary)
-var(--font-teriary)
+$font-primary
+$font-secondary
+$font-teriary
 
-var(--font-size-base)
-var(--line-height-base)
-var(--font-weight-base)
+$font-size-base
+$line-height-base
+$font-weight-base
 */
 
 h1 {
 	font-family: inherit;
-	font-size: calc( var(--font-size-base) * (4 * var(--typo-grid-interval)) );
-	line-height:  calc( var(--line-height-base) * (2 * var(--typo-grid-interval)) );
-	padding-top: calc( 3 * var(--padding-base) );
-	padding-bottom: calc( 2 * var(--padding-base) );
+	font-size: $font-size-base * (4 * $typo-grid-interval);
+	line-height:  $line-height-base * (2 * $typo-grid-interval);
+	padding-top: 3 * $padding;
+	padding-bottom: 2 * $padding;
 }
 h2 {
 	font-family: inherit;
-	font-size: calc( var(--font-size-base) * (3 * var(--typo-grid-interval)) );
-	line-height:  calc( var(--line-height-base) * (2 * var(--typo-grid-interval)) );
-	padding-top: calc( 2 * var(--padding-base) );
-	padding-bottom: calc( 1 * var(--padding-base) );
+	font-size: $font-size-base * (3 * $typo-grid-interval);
+	line-height:  $line-height-base * (2 * $typo-grid-interval);
+	padding-top: 2 * $padding;
+	padding-bottom: 1 * $padding;
 }
 h3 {
 	font-family: inherit;
-	font-size: calc( var(--font-size-base) * (2 * var(--typo-grid-interval)) );
-	line-height:  calc( var(--line-height-base) * (2 * var(--typo-grid-interval)) );
-	padding-top: calc( 1 * var(--padding-base) );
-	padding-bottom: calc( 0 * var(--padding-base) );
+	font-size: $font-size-base * (2 * $typo-grid-interval);
+	line-height:  $line-height-base * (2 * $typo-grid-interval);
+	padding-top: 1 * $padding;
+	padding-bottom: 0 * $padding;
 }
 h4 {
 	font-family: inherit;
-	font-size: calc( var(--font-size-base) * (1 * var(--typo-grid-interval)) );
-	line-height:  calc( var(--line-height-base) * (1 * var(--typo-grid-interval)) );
-	padding-top: calc( 1 * var(--padding-base) );
-	padding-bottom: calc( 0 * var(--padding-base) );
+	font-size: $font-size-base * (1 * $typo-grid-interval);
+	line-height:  $line-height-base * (1 * $typo-grid-interval);
+	padding-top: 1 * $padding;
+	padding-bottom: 0 * $padding;
 }
 h5 {
-	font-size: calc( var(--font-size-base) );
-	line-height:  calc( var(--line-height-base) );
-	line-height:  calc( var(--line-height-base) );
-	padding-top: calc( 0 * var(--padding-base) );
-	padding-bottom: calc( 0 * var(--padding-base) );
+	font-size: $font-size-base;
+	line-height:  $line-height-base;
+	line-height:  $line-height-base;
+	padding-top: 0 * $padding;
+	padding-bottom: 0 * $padding;
 	font-style: italic;
 }
 h6 {
-	font-family: var(--font-teriary);
-	font-size: calc( var(--font-size-base) );
-	line-height:  calc( var(--line-height-base) );
-	padding-top: calc( 2 * var(--padding-base) );
-	padding-bottom: calc( 2 * var(--padding-base) );
+	font-family: $font-teriary;
+	font-size: $font-size-base;
+	line-height:  $line-height-base;
+	padding-top: 2 * $padding;
+	padding-bottom: 2 * $padding;
 	font-weight: 900;
 }
 h1 small, h2 small, h3 small,
@@ -157,12 +158,12 @@ a:hover {
  * paragraphs
  */
 p {
-	font-family: var(--font-secondary);
-	font-size: calc( var(--font-size-base));
-	line-height:  calc( var(--line-height-base));
-	font-weight: var(--font-weight-base);
-	font-style: var(--font-style-base);
-	padding-bottom: var(--line-height-base);
+	font-family: $font-secondary;
+	font-size: $font-size-base;
+	line-height:  $line-height-base;
+	font-weight: $font-weight-base;
+	font-style: $font-style-base;
+	padding-bottom: $line-height-base;
 }
 p small {
 	font-style: italic;
@@ -177,14 +178,14 @@ p small {
  */
 ul {
 	list-style: disc;
-	margin-top: var(--margin-base);
-	margin-bottom: var(--margin-base);
-	font-family: var(--font-primary);
+	margin-top: $margin;
+	margin-bottom: $margin;
+	font-family: $font-primary;
 }
 li {
 	display: list-item;
 	list-style-position: inside;
-	padding-left: var(--padding-base);
+	padding-left: $padding;
 }
 
 
@@ -199,11 +200,11 @@ dl {
 	display: block;
 }
 dt {
-	margin-top: var(--margin-base);
-	margin-bottom: var(--margin-base);
+	margin-top: $margin;
+	margin-bottom: $margin;
 }
 dd {
-	margin-left: var(--margin-base);
+	margin-left: $margin;
 }
 
 
@@ -216,21 +217,4 @@ dd {
 .text-right { text-align: right; }
 .text-italic { font-style: italic; }
 .text-center { text-align: center; }
-
-
-
-
-
-/**
- * responsive styles
- */
-@media screen and (max-width: 980px) {}
-@media screen and (max-width: 800px) {}
-@media screen and (max-width: 666px) {}
-@media screen and (max-width: 600px) {}
-@media screen and (max-width: 500px) {}
-@media screen and (max-width: 480px) {}
-
-
-
 

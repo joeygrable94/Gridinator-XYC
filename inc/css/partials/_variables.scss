@@ -1,0 +1,198 @@
+/**
+ * 
+ * SCSS ROOT VARIABLES
+ * 
+ * @author Joey Grable
+ */
+
+
+/**
+ * MEASUREMENSTS
+ */
+	$inch-base: 96px;
+
+
+
+/**
+ * GRID
+ */
+	$gcol-int-24: 4.16666667%;	// 24 col
+	$gcol-int-20: 5%;			// 20 col
+	$gcol-int-15: 6.66666667%;	// 15 col
+	$gcol-int-12: 8.33333333%;	// 12 col
+	$gcol-int-10: 10%;			// 10 col
+	$gcol-int-9: 11.1111111%;	// 9 col
+	$gcol-int-8: 12.5%;			// 8 col
+	$gcol-int-6: 16.6666666%;	// 6 col
+	$gcol-int-5: 20%;			// 5 col
+	$gcol-int-4: 25%;			// 4 col
+	$gcol-int-3: 33.3333333%;	// 3 col
+	$gcol-int-2: 50%;			// 2 col
+	$grid-int-inch: 96px;		// inch  col
+
+
+
+/**
+ * BREAKPOINTS
+ */
+$breakpoint-1920: 1920px;
+$breakpoint-1320: 1320px;
+$breakpoint-1440: 1440px;
+$breakpoint-1260: 1260px;
+$breakpoint-1080: 1080px;
+$breakpoint-960: 960px;
+$breakpoint-840: 840px;
+$breakpoint-720: 720px;
+$breakpoint-540: 540px;
+$breakpoint-480: 480px;
+
+
+
+/**
+ * TYPOGRAPHY VARIABLES
+ */
+	$font-primary: sans-serif;
+	$font-secondary: sans-serif;
+	$font-teriary: cursive;
+
+	$typo-grid-base: 62.5%;
+	$font-size-base: 12px;
+	$line-height-base: 18px;
+	$font-weight-base: 400;
+	$font-style-base: regular;
+
+	$typo-grid-interval: 1.618;
+
+
+
+/**
+ * SPACING
+ */
+	$spacing-base: 9px;
+	$spacing-interval: (2/3);
+
+	/** defaults **/
+ 	$xs-spacing: $spacing-base * (1 * $spacing-interval); // 6px
+	$sm-spacing: $spacing-base * (2 * $spacing-interval); // 9px
+	$md-spacing: $spacing-base * (3 * $spacing-interval); // 18px
+	$lg-spacing: $spacing-base * (4 * $spacing-interval); // 24px
+	$xl-spacing: $spacing-base * (6 * $spacing-interval); // 36px
+	$xxl-spacing: $spacing-base * (12 * $spacing-interval); // 72px
+	$xxxl-spacing: $spacing-base * (16 * $spacing-interval); // 96px
+
+		/** margin **/
+		$margin: $md-spacing;
+		$margin-xs: $xs-spacing;
+		$margin-sm: $sm-spacing;
+		$margin-md: $md-spacing;
+		$margin-lg: $lg-spacing;
+		$margin-xl: $xl-spacing;
+		$margin-xxl: $xxl-spacing;
+		$margin-xxxl: $xxxl-spacing;
+		$margin-none: 0px;
+
+		$margin-top: $md-spacing;
+		$margin-top-xs: $xs-spacing;
+		$margin-top-sm: $sm-spacing;
+		$margin-top-md: $md-spacing;
+		$margin-top-lg: $lg-spacing;
+		$margin-top-xl: $xl-spacing;
+		$margin-top-xxl: $xxl-spacing;
+		$margin-top-xxxl: $xxxl-spacing;
+		$margin-top-none: 0px;
+
+		$margin-right: $md-spacing;
+		$margin-right-xs: $xs-spacing;
+		$margin-right-sm: $sm-spacing;
+		$margin-right-md: $md-spacing;
+		$margin-right-lg: $lg-spacing;
+		$margin-right-xl: $xl-spacing;
+		$margin-right-xxl: $xxl-spacing;
+		$margin-right-xxxl: $xxxl-spacing;
+		$margin-right-none: 0px;
+
+		$margin-bottom: $md-spacing;
+		$margin-bottom-xs: $xs-spacing;
+		$margin-bottom-sm: $sm-spacing;
+		$margin-bottom-md: $md-spacing;
+		$margin-bottom-lg: $lg-spacing;
+		$margin-bottom-xl: $xl-spacing;
+		$margin-bottom-xxl: $xxl-spacing;
+		$margin-bottom-xxxl: $xxxl-spacing;
+		$margin-bottom-none: 0px;
+
+		$margin-left: $md-spacing;
+		$margin-left-xs: $xs-spacing;
+		$margin-left-sm: $sm-spacing;
+		$margin-left-md: $md-spacing;
+		$margin-left-lg: $lg-spacing;
+		$margin-left-xl: $xl-spacing;
+		$margin-left-xxl: $xxl-spacing;
+		$margin-left-xxxl: $xxxl-spacing;
+		$margin-left-none: 0px;
+
+		/** padding **/
+		$padding: $md-spacing;
+		$padding-xs: $xs-spacing;
+		$padding-sm: $sm-spacing;
+		$padding-md: $md-spacing;
+		$padding-lg: $lg-spacing;
+		$padding-xl: $xl-spacing;
+		$padding-xxl: $xxl-spacing;
+		$padding-xxxl: $xxxl-spacing;
+		$padding-none: 0px;
+
+		$padding-top: $md-spacing;
+		$padding-top-xs: $xs-spacing;
+		$padding-top-sm: $sm-spacing;
+		$padding-top-md: $md-spacing;
+		$padding-top-lg: $lg-spacing;
+		$padding-top-xl: $xl-spacing;
+		$padding-top-xxl: $xxl-spacing;
+		$padding-top-xxxl: $xxxl-spacing;
+		$padding-top-none: 0px;
+
+		$padding-right: $md-spacing;
+		$padding-right-xs: $xs-spacing;
+		$padding-right-sm: $sm-spacing;
+		$padding-right-md: $md-spacing;
+		$padding-right-lg: $lg-spacing;
+		$padding-right-xl: $xl-spacing;
+		$padding-right-xxl: $xxl-spacing;
+		$padding-right-xxxl: $xxxl-spacing;
+		$padding-right-none: 0px;
+
+		$padding-bottom: $md-spacing;
+		$padding-bottom-xs: $xs-spacing;
+		$padding-bottom-sm: $sm-spacing;
+		$padding-bottom-md: $md-spacing;
+		$padding-bottom-lg: $lg-spacing;
+		$padding-bottom-xl: $xl-spacing;
+		$padding-bottom-xxl: $xxl-spacing;
+		$padding-bottom-xxxl: $xxxl-spacing;
+		$padding-bottom-none: 0px;
+
+		$padding-left: $md-spacing;
+		$padding-left-xs: $xs-spacing;
+		$padding-left-sm: $sm-spacing;
+		$padding-left-md: $md-spacing;
+		$padding-left-lg: $lg-spacing;
+		$padding-left-xl: $xl-spacing;
+		$padding-left-xxl: $xxl-spacing;
+		$padding-left-xxxl: $xxxl-spacing;
+		$padding-left-none: 0px;
+
+
+
+/**
+ * COLORS
+ */
+	$color-primary: #FFF0E1;
+	$color-secondary: #8F5500;
+	$color-tertiary: #2C4260;
+	$color-success: green;
+	$color-warning: orange;
+	$color-danger: red;
+	$color-light: white;
+	$color-grey: grey;
+	$color-dark: black;

@@ -23,7 +23,7 @@
 }
 
 div:hover {
-	background-color: rgba(0, 0, 0, 0.15);
+	background-color: rgba(0, 0, 0, 0.1);
 	-webkit-transition: all .1s ease;
 	transition: all .1s ease;
 	cursor: default;
@@ -34,3 +34,9 @@ div:hover {
 	border-left: 2px solid darkgreen;
 	border-right: 2px solid darkgreen;
 }
+
+.hide-scrollbar::-webkit-scrollbar {
+	width: 0px;  /* remove scrollbar space */
+	background: transparent; /* optional: just make scrollbar invisible */
+}
+.hide-scrollbar::-webkit-scrollbar-thumb {	background: #FF0000; } /* optional: show position indicator in red */
