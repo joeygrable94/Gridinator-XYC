@@ -26,6 +26,7 @@
 				<a class="gy" href="./index.php">about</a>
 				<a class="gy" href="./grid-y.php">grid Y</a>
 				<a class="gy" href="./grid-x.php">grid X</a>
+				<a class="gy" href="./grid-inch.php">grid inch</a>
 				<a class="gy" href="./grid-container.php">grid containers</a>
 				<a class="gy" href="./grid-nested.php">grid nested</a>
 				<a class="gy" href="./grid-hierarchy.php">grid hierarchy</a>
