@@ -186,11 +186,6 @@ body * {
 .gy-fluid {
   min-height: 100%; }
 
-/** additional **/
-.window-divide {
-  background-color: rgba(0, 0, 0, 0.66);
-  color: rgba(255, 255, 255, 0.6); }
-
 /** scroll inner content **/
 .gy-scroll {
   max-height: 100vh;
@@ -208,7 +203,291 @@ body * {
   background: #FF0000; }
 
 /* optional: show position indicator in red */
-/** gx */
+/** grow-vh **/
+.grow-vh-100 {
+  height: 100vh; }
+
+.grow-vh-90 {
+  height: 90vh; }
+
+.grow-vh-80 {
+  height: 80vh; }
+
+.grow-vh-70 {
+  height: 70vh; }
+
+.grow-vh-60 {
+  height: 60vh; }
+
+.grow-vh-50 {
+  height: 50vh; }
+
+.grow-vh-40 {
+  height: 40vh; }
+
+.grow-vh-30 {
+  height: 30vh; }
+
+.grow-vh-20 {
+  height: 20vh; }
+
+.grow-vh-10 {
+  height: 10vh; }
+
+.grow-vh-66 {
+  height: 66.666vh; }
+
+.grow-vh-33 {
+  height: 33.333vh; }
+
+.grow-vh-75 {
+  height: 75vh; }
+
+.grow-vh-25 {
+  height: 25vh; }
+
+/** grow-percent **/
+.grow-pct-100 {
+  height: 100%; }
+
+.grow-pct-90 {
+  height: 90%; }
+
+.grow-pct-80 {
+  height: 80%; }
+
+.grow-pct-70 {
+  height: 70%; }
+
+.grow-pct-60 {
+  height: 60%; }
+
+.grow-pct-50 {
+  height: 50%; }
+
+.grow-pct-40 {
+  height: 40%; }
+
+.grow-pct-30 {
+  height: 30%; }
+
+.grow-pct-20 {
+  height: 20%; }
+
+.grow-pct-10 {
+  height: 10%; }
+
+.grow-pct-66 {
+  height: 66.666%; }
+
+.grow-pct-33 {
+  height: 33.333%; }
+
+.grow-pct-75 {
+  height: 75%; }
+
+.grow-pct-25 {
+  height: 25%; }
+
+/** grow-pixel **/
+.grow-px-10 {
+  height: 10px; }
+
+.grow-px-20 {
+  height: 20px; }
+
+.grow-px-30 {
+  height: 30px; }
+
+.grow-px-40 {
+  height: 40px; }
+
+.grow-px-50 {
+  height: 50px; }
+
+.grow-px-60 {
+  height: 60px; }
+
+.grow-px-70 {
+  height: 70px; }
+
+.grow-px-80 {
+  height: 80px; }
+
+.grow-px-90 {
+  height: 90px; }
+
+.grow-px-100 {
+  height: 100px; }
+
+/** grow-point: multiples of 10 **/
+.grow-pt-10 {
+  height: 10pt; }
+
+.grow-pt-20 {
+  height: 20pt; }
+
+.grow-pt-30 {
+  height: 30pt; }
+
+.grow-pt-40 {
+  height: 40pt; }
+
+.grow-pt-50 {
+  height: 50pt; }
+
+.grow-pt-60 {
+  height: 60pt; }
+
+.grow-pt-70 {
+  height: 70pt; }
+
+.grow-pt-80 {
+  height: 80pt; }
+
+.grow-pt-90 {
+  height: 90pt; }
+
+.grow-pt-100 {
+  height: 100pt; }
+
+/** grow-point: 12pt scale **/
+.grow-pt-12 {
+  height: 12pt; }
+
+.grow-pt-24 {
+  height: 24pt; }
+
+.grow-pt-36 {
+  height: 36pt; }
+
+.grow-pt-48 {
+  height: 48pt; }
+
+.grow-pt-60 {
+  height: 60pt; }
+
+.grow-pt-72 {
+  height: 72pt; }
+
+.grow-pt-96 {
+  height: 96pt; }
+
+.grow-pt-108 {
+  height: 108pt; }
+
+.grow-pt-120 {
+  height: 120pt; }
+
+.grow-pt-132 {
+  height: 132pt; }
+
+.grow-pt-144 {
+  height: 144pt; }
+
+.grow-pt-156 {
+  height: 156pt; }
+
+.grow-pt-168 {
+  height: 168pt; }
+
+.grow-pt-180 {
+  height: 180pt; }
+
+.grow-pt-192 {
+  height: 192pt; }
+
+.grow-pt-204 {
+  height: 204pt; }
+
+.grow-pt-216 {
+  height: 216pt; }
+
+.grow-pt-228 {
+  height: 228pt; }
+
+.grow-pt-240 {
+  height: 240pt; }
+
+.grow-pt-252 {
+  height: 252pt; }
+
+.grow-pt-264 {
+  height: 264pt; }
+
+.grow-pt-276 {
+  height: 276pt; }
+
+.grow-pt-288 {
+  height: 288pt; }
+
+.grow-pt-300 {
+  height: 300pt; }
+
+/** grow-inches **/
+.grow-in-1 {
+  height: 96px; }
+
+.grow-in-2 {
+  height: 192px; }
+
+.grow-in-3 {
+  height: 288px; }
+
+.grow-in-4 {
+  height: 384px; }
+
+.grow-in-5 {
+  height: 480px; }
+
+.grow-in-6 {
+  height: 576px; }
+
+.grow-in-7 {
+  height: 672px; }
+
+.grow-in-8 {
+  height: 768px; }
+
+.grow-in-9 {
+  height: 864px; }
+
+.grow-in-10 {
+  height: 960px; }
+
+.grow-in-11 {
+  height: 1056px; }
+
+.grow-in-12 {
+  height: 1152px; }
+
+.grow-in-13 {
+  height: 1248px; }
+
+.grow-in-14 {
+  height: 1344px; }
+
+.grow-in-15 {
+  height: 1440px; }
+
+.grow-in-16 {
+  height: 1536px; }
+
+.grow-in-17 {
+  height: 1632px; }
+
+.grow-in-18 {
+  height: 1728px; }
+
+.grow-in-19 {
+  height: 1824px; }
+
+.grow-in-20 {
+  height: 1920px; }
+
+/**
+ * gx
+ **/
 .gx {
   width: 100%;
   -webkit-display: flex;
@@ -581,7 +860,9 @@ body * {
 .gx.gcol-2 > .span-2 {
   width: 100%; }
 
-/** gx-inch **/
+/**
+ * gx-inch
+**/
 .gx-inch {
   width: 100%;
   margin: 0 auto;
@@ -592,8 +873,8 @@ body * {
   flex-direction: row;
   -webkit-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
+  -webkit-justify-content: center;
+  justify-content: center;
   -webkit-align-items: stretch;
   align-items: stretch;
   -webkit-align-content: flex-start;
@@ -712,34 +993,34 @@ body * {
   margin: 0 auto; }
 
 /** pixels **/
-.contain-1920 {
+.contain.c1920 {
   max-width: 1920px; }
 
-.contain-1320 {
+.contain.c1320 {
   max-width: 1320px; }
 
-.contain-1440 {
+.contain.c1440 {
   max-width: 1440px; }
 
-.contain-1260 {
+.contain.c1260 {
   max-width: 1260px; }
 
-.contain-1080 {
+.contain.c1080 {
   max-width: 1080px; }
 
-.contain-960 {
+.contain.c960 {
   max-width: 960px; }
 
-.contain-840 {
+.contain.c840 {
   max-width: 840px; }
 
-.contain-720 {
+.contain.c720 {
   max-width: 720px; }
 
-.contain-540 {
+.contain.c540 {
   max-width: 540px; }
 
-.contain-480 {
+.contain.c480 {
   max-width: 480px; }
 
 /**
@@ -1137,36 +1418,36 @@ $font-weight-base
 h1 {
   font-family: inherit;
   font-size: 77.664px;
-  line-height: 58.248px;
-  padding-top: 54px;
-  padding-bottom: 36px; }
+  line-height: 72px;
+  padding-top: 36px;
+  padding-bottom: 24px; }
 
 h2 {
   font-family: inherit;
   font-size: 58.248px;
-  line-height: 58.248px;
-  padding-top: 36px;
+  line-height: 54px;
+  padding-top: 24px;
   padding-bottom: 18px; }
 
 h3 {
   font-family: inherit;
   font-size: 38.832px;
-  line-height: 58.248px;
+  line-height: 54px;
   padding-top: 18px;
-  padding-bottom: 0px; }
+  padding-bottom: 12px; }
 
 h4 {
   font-family: inherit;
   font-size: 19.416px;
-  line-height: 29.124px;
-  padding-top: 18px;
-  padding-bottom: 0px; }
+  line-height: 18px;
+  padding-top: 12px;
+  padding-bottom: 6px; }
 
 h5 {
   font-size: 12px;
   line-height: 18px;
   line-height: 18px;
-  padding-top: 0px;
+  padding-top: 6px;
   padding-bottom: 0px;
   font-style: italic; }
 
@@ -1174,8 +1455,8 @@ h6 {
   font-family: cursive;
   font-size: 12px;
   line-height: 18px;
-  padding-top: 36px;
-  padding-bottom: 36px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 900; }
 
 /**

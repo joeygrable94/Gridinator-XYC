@@ -35,16 +35,16 @@
 /**
  * BREAKPOINTS
  */
-$breakpoint-1920: 1920px;
-$breakpoint-1320: 1320px;
-$breakpoint-1440: 1440px;
-$breakpoint-1260: 1260px;
-$breakpoint-1080: 1080px;
-$breakpoint-960: 960px;
-$breakpoint-840: 840px;
-$breakpoint-720: 720px;
-$breakpoint-540: 540px;
-$breakpoint-480: 480px;
+	$breakpoint-1920: 1920px;
+	$breakpoint-1320: 1320px;
+	$breakpoint-1440: 1440px;
+	$breakpoint-1260: 1260px;
+	$breakpoint-1080: 1080px;
+	$breakpoint-960: 960px;
+	$breakpoint-840: 840px;
+	$breakpoint-720: 720px;
+	$breakpoint-540: 540px;
+	$breakpoint-480: 480px;
 
 
 
@@ -68,8 +68,8 @@ $breakpoint-480: 480px;
 /**
  * SPACING
  */
-	$spacing-base: 9px;
-	$spacing-interval: (2/3);
+$spacing-base: 9px;
+$spacing-interval: (2/3);
 
 	/** defaults **/
  	$xs-spacing: $spacing-base * (1 * $spacing-interval); // 6px

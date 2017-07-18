@@ -11,6 +11,11 @@
 	</div>
 	<!-- END gridinator -->
 
+	<!-- gridinator -->
+	<div class="gy vh-100 window-divide"></div>
+	<!-- END gridinator -->
+
+
 
 <!-- FOOTER -->
 <?php require('inc/snippets/_footer.php'); ?>

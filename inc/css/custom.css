@@ -6,7 +6,7 @@
  */
 
 .gy {
-	border-bottom: 1px solid red;
+	border-bottom: 0.25px solid red;
 }
 
 .gy-title {
@@ -14,8 +14,13 @@
 	align-items: flex-end;
 }
 
+.window-divide {
+	background-color: rgba(0, 0, 0, 0.75);
+	color: rgba(255, 255, 255, 0.6);
+}
+
 .gcol {
-	border-right: 1px solid blue;
+	border-right: 0.5px solid blue;
 }
 
 .gcol:last-child {
@@ -31,12 +36,13 @@ div:hover {
 
 .borders-green,
 .contain {
-	border-left: 2px solid darkgreen;
-	border-right: 2px solid darkgreen;
+	border-left: 1px solid darkgreen;
+	border-right: 1px solid darkgreen;
 }
 
 .hide-scrollbar::-webkit-scrollbar {
 	width: 0px;  /* remove scrollbar space */
 	background: transparent; /* optional: just make scrollbar invisible */
 }
+
 .hide-scrollbar::-webkit-scrollbar-thumb {	background: #FF0000; } /* optional: show position indicator in red */

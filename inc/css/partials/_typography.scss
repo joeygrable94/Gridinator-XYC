@@ -87,45 +87,45 @@ $font-weight-base
 h1 {
 	font-family: inherit;
 	font-size: $font-size-base * (4 * $typo-grid-interval);
-	line-height:  $line-height-base * (2 * $typo-grid-interval);
-	padding-top: 3 * $padding;
-	padding-bottom: 2 * $padding;
+	line-height:  $line-height-base * 4;
+	padding-top: $padding-xl;
+	padding-bottom: $padding-lg;
 }
 h2 {
 	font-family: inherit;
 	font-size: $font-size-base * (3 * $typo-grid-interval);
-	line-height:  $line-height-base * (2 * $typo-grid-interval);
-	padding-top: 2 * $padding;
-	padding-bottom: 1 * $padding;
+	line-height:  $line-height-base * 3;
+	padding-top: $padding-lg;
+	padding-bottom: $padding-md;
 }
 h3 {
 	font-family: inherit;
 	font-size: $font-size-base * (2 * $typo-grid-interval);
-	line-height:  $line-height-base * (2 * $typo-grid-interval);
-	padding-top: 1 * $padding;
-	padding-bottom: 0 * $padding;
+	line-height:  $line-height-base * 3;
+	padding-top: $padding-md;
+	padding-bottom: $padding-sm;
 }
 h4 {
 	font-family: inherit;
 	font-size: $font-size-base * (1 * $typo-grid-interval);
-	line-height:  $line-height-base * (1 * $typo-grid-interval);
-	padding-top: 1 * $padding;
-	padding-bottom: 0 * $padding;
+	line-height:  $line-height-base * 1;
+	padding-top: $padding-sm;
+	padding-bottom: $padding-xs;
 }
 h5 {
 	font-size: $font-size-base;
 	line-height:  $line-height-base;
 	line-height:  $line-height-base;
-	padding-top: 0 * $padding;
-	padding-bottom: 0 * $padding;
+	padding-top: $padding-xs;
+	padding-bottom: $padding-none;
 	font-style: italic;
 }
 h6 {
 	font-family: $font-teriary;
 	font-size: $font-size-base;
 	line-height:  $line-height-base;
-	padding-top: 2 * $padding;
-	padding-bottom: 2 * $padding;
+	padding-top: $padding-lg;
+	padding-bottom: $padding-lg;
 	font-weight: 900;
 }
 h1 small, h2 small, h3 small,
@@ -163,7 +163,7 @@ p {
 	line-height:  $line-height-base;
 	font-weight: $font-weight-base;
 	font-style: $font-style-base;
-	padding-bottom: $line-height-base;
+	padding-bottom: $padding-md;
 }
 p small {
 	font-style: italic;
