@@ -13,27 +13,33 @@
 
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="./inc/css/main.css">
+	<link rel="stylesheet" type="text/css" href="./inc/css/typographic-base.css">
 	<link rel="stylesheet" type="text/css" href="./inc/css/custom.css">
 
 </head>
 <body class="">
 
 	<!-- wrap -->
-	<div class="gy vh-100 gx gcol-12">
+	<div class="gy flex grow-vh-100 gx flex gcol-12">
 		<!-- navigation -->
-		<div class="gcol span-1">
-			<nav class="">
-				<a class="gy" href="./index.php">about</a>
-				<a class="gy" href="./grid-y.php">grid Y</a>
-				<a class="gy" href="./grid-x.php">grid X</a>
-				<a class="gy" href="./grid-inch.php">grid inch</a>
-				<a class="gy" href="./grid-container.php">grid containers</a>
-				<a class="gy" href="./grid-nested.php">grid nested</a>
-				<a class="gy" href="./grid-hierarchy.php">grid hierarchy</a>
-				<a class="gy" href="./grid-typography.php">typography</a>
+		<div class="span-1">
+
+			<!-- Content Case / Block Instance -->
+			<nav class="gy">
+				<a class="block" href="./index.php">Gridinator XYZ</a>
+				<a class="block" href="./grid-y.php">grid Y</a>
+				<a class="block" href="./grid-x.php">grid X</a>
+				<a class="block" href="./grid-inch.php">grid inch</a>
+				<a class="block" href="./grid-container.php">grid containers</a>
+				<a class="block" href="./grid-nested.php">grid nested</a>
+				<a class="block" href="./grid-hierarchy.php">grid hierarchy</a>
+				<a class="block" href="./grid-typography.php">typography</a>
+				<a class="block" href="./grid-content-blocks.php">content blocks</a>
 			</nav>
+			<!-- Content Case / Block Instance -->
+
 		</div>
 		<!-- END navigation -->
 		<!-- content -->
-		<div class="gcol span-11">
-			<div class="gy gy-scroll">
+		<div class="span-11">
+			<div class="gy block gy-scroll">

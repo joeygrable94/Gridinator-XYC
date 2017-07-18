@@ -4,7 +4,7 @@
 
 
 	<!-- gridinator -->
-	<div class="gy vh-100 flex-center">
+	<div class="gy flex grow-vh-100 flex-center">
 		<div class="grid-box">
 			<h1>Typography</h1>
 		</div>
@@ -12,35 +12,45 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="baseline-grid-18px gy gy-fluid contain c480">
-		<div class="grid-box">
-			<h1>Header 1</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at luctus urna. Phasellus molestie massa urna, vitae tempus nibh pharetra sed. Nullam at ullamcorper elit. Phasellus ut nisl bibendum, sagittis metus sed, blandit sem. Nunc finibus elit ante, a pretium tortor venenatis eget. Etiam at est odio. Integer porta hendrerit ipsum semper ullamcorper. Nulla eget tortor sollicitudin lacus vehicula dictum. Ut scelerisque nibh at libero suscipit commodo. Sed rutrum feugiat justo, eu vehicula tellus euismod in. Sed sit amet iaculis magna. Vivamus tempus libero ac diam suscipit congue id vitae nibh. In at vehicula mauris, sit amet dapibus sem. Maecenas commodo lobortis vehicula. Mauris vel ultricies quam.</p>
-			<h2>Header 2</h2>
-			<p>Curabitur vestibulum tempus mi ut rutrum. Etiam finibus feugiat libero, non elementum erat venenatis non. Fusce id libero vitae justo ultrices scelerisque eget et justo. Integer ullamcorper diam non sapien vehicula tempor. Nam maximus massa et sollicitudin faucibus. Ut congue, ligula nec dignissim aliquet, ipsum dui pellentesque ex, ac gravida odio nunc et felis. Cras in pellentesque eros. Sed iaculis orci at velit dignissim imperdiet. Nullam fringilla luctus ultrices. Curabitur sed nisl sed sem ultricies accumsan. Aliquam ipsum nisl, cursus quis sollicitudin ac, varius et ligula. Ut pellentesque finibus dui vitae ultrices.</p>
-			<h3>Header 3</h3>
-			<p>Curabitur diam nisi, euismod vitae libero sit amet, aliquam dignissim neque. Nunc ultricies scelerisque arcu, quis bibendum lorem auctor ac. Praesent vel diam a neque viverra interdum vel vitae turpis. Phasellus a justo et massa vulputate ultricies. Donec laoreet nibh nec urna malesuada, non molestie ligula sodales. Aliquam vehicula luctus velit, vitae ultrices massa. Quisque tristique accumsan risus ac sagittis. Maecenas arcu est, vehicula sit amet sapien non, tristique placerat dui. Integer et eros nulla. Suspendisse hendrerit libero ligula, at faucibus tellus placerat nec. Nulla iaculis purus sit amet nibh varius, et porta libero interdum. Nunc euismod, lacus id eleifend molestie, sapien ante lobortis elit, ut feugiat purus purus a elit. Nam ac ligula sed orci maximus sollicitudin in eget augue. Vivamus finibus, dui vel feugiat placerat, ipsum ligula suscipit risus, quis vestibulum libero magna ut dui. Suspendisse semper purus ut augue posuere iaculis. Donec in consectetur velit.</p>
-			<h4>Header 4</h4>
-			<h5>Header 5</h5>
-			<h6>Header 6</h6>
-			<h1>Type<br/>on Screen</h1>
-			<p class="author">by ARAL BALKAN</p>
-			<p class="intro">Donec sit amet odio velit. Nullam sit amet bibendum odio, in ultrices sapien. Cras id lacus ac mi fermentum ultricies et eu nulla. Donec ut posuere nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum faucibus dictum sapien in cursus. Aliquam semper sagittis ex, vitae egestas ipsum volutpat quis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-			<p>Phasellus rutrum purus nec neque congue fermentum. Maecenas nunc felis, molestie ac tincidunt non, tincidunt pretium magna. In sit amet dolor est. Integer eleifend tortor a nunc lacinia scelerisque. Proin ullamcorper hendrerit nunc et tincidunt. In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vitae nulla sed elit pharetra pretium et fringilla risus. Maecenas risus leo, finibus sed nunc et, vehicula congue arcu. Cras aliquam turpis leo, at ultrices quam elementum vitae. Sed dictum est et accumsan gravida. Aenean ac mi ultrices, gravida nisl a, placerat nisi. Nullam tincidunt elit eu arcu maximus dictum. In et molestie quam. Nullam lacinia imperdiet molestie. Donec elit elit, mattis at urna ac, lacinia molestie risus.</p>
-			<p class="pullquote">Sed bibendum pharetra molestie. Nunc ultrices eget est suscipit consequat. Mauris eget lectus eget elit congue viverra ac ut nisl. Suspendisse eu risus tristique, commodo est ac, feugiat dolor. Pellentesque tristique placerat orci, sed finibus eros mollis quis. Mauris efficitur tincidunt laoreet. Vestibulum elementum tellus vel interdum ultrices. Duis maximus rhoncus convallis. Duis eu quam ut mi sodales sollicitudin imperdiet at lectus. Mauris finibus rhoncus accumsan. Duis dictum est quis purus cursus euismod. Integer non massa faucibus magna aliquet aliquet. Pellentesque lacinia turpis non leo vehicula elementum.</p>
-			<p>Quisque rutrum ipsum massa, et pharetra metus molestie in. Suspendisse mattis ex id elit interdum, vel iaculis augue aliquet. Nulla malesuada eu quam eu ornare. Duis condimentum auctor enim, ac vehicula augue gravida ut. Ut augue enim, suscipit imperdiet turpis at, molestie tristique sapien. In luctus sapien diam, eu dictum neque ullamcorper eget. Proin massa augue, aliquam ut metus sit amet, venenatis lacinia enim.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue mi vitae elit pellentesque aliquet. In bibendum, neque id rutrum varius, mi ex fermentum lorem, nec lobortis ex nunc in dolor. Quisque lobortis est finibus gravida euismod. Aenean hendrerit in enim ac viverra. Donec ac nisl vitae tellus faucibus venenatis. Maecenas rutrum blandit erat eget hendrerit. Suspendisse sit amet tellus rutrum, mattis metus eu, dictum turpis. Suspendisse quis fringilla leo, sodales ornare justo. Mauris tincidunt et urna eu tincidunt. Suspendisse venenatis tellus mi, ac tempus lacus semper eu. Suspendisse pulvinar turpis quis orci molestie, in porta odio pellentesque. Donec euismod tortor nec orci condimentum tincidunt. Phasellus nec aliquet eros. Sed dolor augue, mollis vel pretium sit amet, laoreet ut magna. Suspendisse sed sodales lorem. Proin ipsum sapien, lobortis at mi sed, volutpat lacinia augue.</p>
-			<p>Ut ut elit sapien. Praesent ac ullamcorper nibh. Phasellus purus velit, facilisis sed congue convallis, varius quis justo. Sed sed imperdiet arcu, vel bibendum mi. Duis a rhoncus diam. Ut ultricies aliquet venenatis. Curabitur pellentesque turpis sit amet enim tempor, sed hendrerit felis venenatis. Pellentesque consequat, nunc non rutrum tincidunt, nisi sapien fringilla massa, eu volutpat ipsum ligula et tellus.</p>
-			<h2>Emotional Typography</h2>
-			<p>Quisque viverra eget augue sit amet condimentum. Nullam vel dictum nulla. Nulla pellentesque lectus et dolor sollicitudin consequat. Praesent commodo, sem vel pulvinar cursus, dui magna mollis ligula, a rhoncus magna libero quis neque. Aliquam eget ligula efficitur quam varius lacinia at ac lorem. Donec in magna hendrerit, auctor ligula eget, ultrices felis. Praesent eleifend, eros eget aliquet tempus, dolor orci commodo ipsum, id condimentum lectus ipsum vel sem. Sed efficitur lectus blandit felis interdum, vel sagittis urna mattis. Phasellus venenatis lacus in fringilla maximus. Vestibulum eget vehicula lacus. Cras id finibus mi. Etiam sit amet dapibus ipsum, quis pharetra purus. Mauris maximus nec arcu sed bibendum. Mauris sem mi, vehicula sed pellentesque sed, facilisis ut eros. Ut aliquet ultrices dui ac congue.</p>
-			<p>Vivamus sagittis consequat euismod. Donec at condimentum neque, in eleifend risus. Cras luctus nisl at ornare egestas. Sed posuere justo et libero elementum, mattis porta velit mattis. Suspendisse id velit sit amet lorem dignissim consequat et ut quam. Quisque mollis dignissim augue eu tincidunt. Integer faucibus arcu non quam volutpat vestibulum. Ut at elit augue. Ut purus quam, tristique et laoreet eu, tincidunt at augue. Fusce leo sem, dictum vitae volutpat vel, rutrum non nisi. Nam finibus mollis neque, id hendrerit lectus feugiat a. Nulla facilisi. Praesent ultricies, eros quis hendrerit pharetra, erat nulla semper ligula, quis gravida ipsum est efficitur mi. Nunc id condimentum lacus, nec fermentum quam. Nullam rhoncus ullamcorper lectus id facilisis. Morbi aliquet ligula tempus, malesuada velit nec, vulputate tellus.</p>
-			<h3>A note about images.</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et magna vulputate, commodo tellus vitae, scelerisque lorem. Etiam vitae laoreet quam. Vivamus vel ante justo. Phasellus facilisis bibendum sollicitudin. Donec varius congue vulputate. Suspendisse facilisis id massa et pellentesque. Etiam condimentum, tortor nec imperdiet lobortis, tortor sapien malesuada sem, id tempor tellus massa eget lorem. Nam nec lacinia risus, id vulputate magna. Pellentesque nec tortor consectetur, euismod tortor vel, scelerisque lorem. Etiam tristique varius arcu. Cras eu nisi sit amet felis pharetra ullamcorper ut id odio. Aenean ultricies non urna quis dapibus. Mauris tincidunt mollis varius. Nulla lectus quam, lacinia quis arcu ac, tincidunt laoreet urna.</p>
-			<h2>Technical Advantages</h2>
-			<p>Vestibulum urna ligula, iaculis vel eros a, laoreet luctus felis. Mauris et diam lobortis, faucibus est vel, pellentesque nibh. Integer suscipit non leo eget semper. Fusce ac rhoncus tortor. Ut a leo suscipit, ultricies enim imperdiet, aliquet eros. Integer porta eros blandit tortor suscipit tincidunt. Pellentesque non ultricies sem, nec accumsan lorem. Morbi at suscipit libero. Aenean sit amet lacus scelerisque, euismod elit et, vulputate ipsum. Suspendisse nisl risus, volutpat ut felis non, pharetra vehicula neque. Mauris at lacus enim.</p>
-			<p>Ut ut elit sapien. Praesent ac ullamcorper nibh. Phasellus purus velit, facilisis sed congue convallis, varius quis justo. Sed sed imperdiet arcu, vel bibendum mi. Duis a rhoncus diam. Ut ultricies aliquet venenatis. Curabitur pellentesque turpis sit amet enim tempor, sed hendrerit felis venenatis. Pellentesque consequat, nunc non rutrum tincidunt, nisi sapien fringilla massa, eu volutpat ipsum ligula et tellus.</p>
+	<div class="gx block gcol-12 contain c540 baseline-grid-18px">
+		<div class="span-12">
+			<h1>Typographic Grid</h1>
+
+			<h2>Example Paragraph</h2>
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+			
+			<h2>Thin Paragraph with Pull Quote</h2>
+			<p class="thin float-left">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. <code>Quisque sit amet</code> est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.</p>
+			<blockquote class="float-right">Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.</blockquote>
+			<div class="clearfix"></div>
+			
+			<h2 class="bump">Another Example Paragraph</h2>
+			<ul class="meta">
+				<li class="author">Chris Coyier</li>
+				<li class="date">12/12/08</li>
+				<li class="comments">6 Comments</li>
+			</ul>
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. <code>Quisque sit amet</code> est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Praesent pharetra pulvinar lectus, vel condimentum neque molestie ut. Donec ac sem at augue efficitur efficitur non fermentum erat. Integer quis varius odio. Vestibulum risus leo, dignissim in ultrices sit amet, faucibus in nulla. Sed in ornare lectus, vel sollicitudin dui. Suspendisse ornare lorem id pulvinar molestie.</p>
+			<p>Mauris mollis ac sapien dictum tincidunt. Nullam ullamcorper enim quis erat sagittis lacinia. Donec elit felis, sollicitudin in nisi vitae, gravida aliquam erat. Pellentesque ante ipsum, fermentum ut vehicula sed, sodales vel sem. Vestibulum condimentum elementum feugiat. In hac habitasse platea dictumst. Etiam varius rutrum accumsan. Phasellus volutpat sollicitudin ex, et accumsan turpis fringilla quis.</p>
+			<ol>
+				<li>Find pitcher.</li>
+				<li>Pour in drink mix.</li>
+				<li>Add 2 qt. water</li>
+				<li>Stir.</li>
+				<li>Pour into glass and drink.</li>
+			</ol>
+
+			<h2>Thin Paragraph with Pull Quote</h2>
+			<p class="thin float-right">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. <code>Quisque sit amet</code> est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.</p>
+			<blockquote class="float-left">Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.</blockquote>
+			<div class="clearfix"></div>
+
 		</div>
 	</div>
+	<!-- END gridinator -->
+
+	<!-- gridinator -->
+	<div class="gy flex grow-vh-25"></div>
 	<!-- END gridinator -->
 
 

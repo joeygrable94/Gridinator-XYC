@@ -108,13 +108,70 @@ body * {
 
 /* IE7 */
 /**
+ * typograhic grid
+ * 
+ * @assumption => 96 pixels per inch
+ */
+.baseline-grid-5px {
+  background: url("../images/baseline-grid/baseline-grid-5px.jpg") repeat; }
+
+.baseline-grid-8px {
+  background: url("../images/baseline-grid/baseline-grid-8px.jpg") repeat; }
+
+.baseline-grid-9px {
+  background: url("../images/baseline-grid/baseline-grid-9px.jpg") repeat; }
+
+.baseline-grid-10px {
+  background: url("../images/baseline-grid/baseline-grid-10px.jpg") repeat; }
+
+.baseline-grid-12px {
+  background: url("../images/baseline-grid/baseline-grid-12px.jpg") repeat; }
+
+.baseline-grid-14px {
+  background: url("../images/baseline-grid/baseline-grid-14px.jpg") repeat; }
+
+.baseline-grid-16px {
+  background: url("../images/baseline-grid/baseline-grid-16px.jpg") repeat; }
+
+.baseline-grid-18px {
+  background: url("../images/baseline-grid/baseline-grid-18px.jpg") repeat; }
+
+.baseline-grid-20px {
+  background: url("../images/baseline-grid/baseline-grid-20px.jpg") repeat; }
+
+.baseline-grid-25px {
+  background: url("../images/baseline-grid/baseline-grid-25px.jpg") repeat; }
+
+.baseline-grid-36px {
+  background: url("../images/baseline-grid/baseline-grid-36px.jpg") repeat; }
+
+.baseline-grid-48px {
+  background: url("../images/baseline-grid/baseline-grid-48px.jpg") repeat; }
+
+.baseline-grid-50px {
+  background: url("../images/baseline-grid/baseline-grid-50px.jpg") repeat; }
+
+.baseline-grid-72px {
+  background: url("../images/baseline-grid/baseline-grid-72px.jpg") repeat; }
+
+.baseline-grid-96px {
+  background: url("../images/baseline-grid/baseline-grid-96px.jpg") repeat; }
+
+/**
  * BOX MODEL
  */
-.grid-box {
+.block {
   display: block;
   position: relative;
   width: auto;
   height: auto; }
+
+/** floats **/
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
 
 /**
  * GRID FLEX
@@ -129,10 +186,13 @@ body * {
  *   .span-#
  */
 /** grid flex **/
-.grid-flex {
-  /** flex **/
+.flex {
   -webkit-display: flex;
   display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
   /**
   row | row-reverse | column | column-reverse
   -webkit-flex-direction:;
@@ -174,13 +234,7 @@ body * {
   width: 100%;
   height: auto;
   background-size: cover;
-  background-position: center;
-  -webkit-display: flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap; }
+  background-position: center; }
 
 /** no Y constraint **/
 .gy-fluid {
@@ -485,17 +539,9 @@ body * {
 .grow-in-20 {
   height: 1920px; }
 
-/**
- * gx
- **/
+/** gx **/
 .gx {
-  width: 100%;
-  -webkit-display: flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap; }
+  width: 100%; }
 
 /** flex-24 **/
 .gx.gcol-24 > .span-1 {
@@ -1024,6 +1070,84 @@ body * {
   max-width: 480px; }
 
 /**
+ * Z GRID
+ */
+/**
+
+=========================
+Basic Box Properties
+=========================
+display
+width
+height
+position
+right
+top
+bottom
+left
+z-index
+float
+vertical-align
+clear
+clip
+visibility
+
+margin
+margin-bottom
+margin-left
+margin-right
+margin-top
+max-height
+max-width
+min-height
+min-width
+overflow
+overflow-x
+overflow-y
+padding
+padding-bottom
+padding-left
+padding-right
+padding-top
+
+
+=========================
+Flexible Box Layout
+=========================
+align-content
+align-items
+align-self
+flex
+flex-basis
+flex-direction
+flex-flow
+flex-grow
+flex-shrink
+flex-wrap
+justify-content
+order
+
+**/
+/**
+ * content blocks
+ */
+.block {
+  display: block;
+  position: relative; }
+
+/** block-item **/
+/**
+ * sizing
+ * 
+ * (unit = px, pt, pct, vh, in)
+ * (value = 0-100, etc.)
+ */
+/**
+ * positioning
+ * 
+ * (local = top, right, bottom, left)
+ */
+/**
  * vh
  **/
 .vh-100 {
@@ -1349,56 +1473,6 @@ body {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400; }
-
-/**
- * typograhic grid
- * 
- * @assumption => 72 pixels per inch
- */
-.baseline-grid-5px {
-  background: url("../images/baseline-grid/baseline-grid-5px.jpg") repeat; }
-
-.baseline-grid-8px {
-  background: url("../images/baseline-grid/baseline-grid-8px.jpg") repeat; }
-
-.baseline-grid-9px {
-  background: url("../images/baseline-grid/baseline-grid-9px.jpg") repeat; }
-
-.baseline-grid-10px {
-  background: url("../images/baseline-grid/baseline-grid-10px.jpg") repeat; }
-
-.baseline-grid-12px {
-  background: url("../images/baseline-grid/baseline-grid-12px.jpg") repeat; }
-
-.baseline-grid-14px {
-  background: url("../images/baseline-grid/baseline-grid-14px.jpg") repeat; }
-
-.baseline-grid-16px {
-  background: url("../images/baseline-grid/baseline-grid-16px.jpg") repeat; }
-
-.baseline-grid-18px {
-  background: url("../images/baseline-grid/baseline-grid-18px.jpg") repeat; }
-
-.baseline-grid-20px {
-  background: url("../images/baseline-grid/baseline-grid-20px.jpg") repeat; }
-
-.baseline-grid-25px {
-  background: url("../images/baseline-grid/baseline-grid-25px.jpg") repeat; }
-
-.baseline-grid-36px {
-  background: url("../images/baseline-grid/baseline-grid-36px.jpg") repeat; }
-
-.baseline-grid-48px {
-  background: url("../images/baseline-grid/baseline-grid-48px.jpg") repeat; }
-
-.baseline-grid-50px {
-  background: url("../images/baseline-grid/baseline-grid-50px.jpg") repeat; }
-
-.baseline-grid-72px {
-  background: url("../images/baseline-grid/baseline-grid-72px.jpg") repeat; }
-
-.baseline-grid-96px {
-  background: url("../images/baseline-grid/baseline-grid-96px.jpg") repeat; }
 
 /**
  * headings

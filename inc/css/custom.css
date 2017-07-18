@@ -19,16 +19,11 @@
 	color: rgba(255, 255, 255, 0.6);
 }
 
-.gcol {
-	border-right: 0.5px solid blue;
-}
-
-.gcol:last-child {
-	border-right: none;
-}
+[class^="span-"] {	border-right: 0.5px solid blue;	}
+[class^="span-"]:last-child {	border-right: none;	}
 
 div:hover {
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.05);
 	-webkit-transition: all .1s ease;
 	transition: all .1s ease;
 	cursor: default;

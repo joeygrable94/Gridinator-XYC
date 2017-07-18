@@ -1,14 +1,13 @@
-# Gridinator-XY
-XY-flex-grid for rapid prototyping development
+# Gridinator-XYZ
+XYZ Grid for rapid prototyping development
 
 View Working Sample at:
 http://joeygrable.com/PROJECTS/Gridinator-XYZ/
 
 
 
-=================
-	XY GRID
-=================
+XY GRID
+—————
 
 Grid Y
 [x] .gy
@@ -35,9 +34,8 @@ Hierarchy
 
 
 
-=================
-	 Z GRID
-=================
+Z GRID
+—————
 
 Content Blocks
 [ ]	.block
@@ -69,9 +67,8 @@ Decks, Stacks
 
 
 
-===================
-	Typography
-===================
+Typography
+—————
 
 Font Familes
 [ ]	--font-primary

@@ -63,7 +63,10 @@ order
 /**
  * content blocks
  */
-.block {}
+.block {
+	display: block;
+	position: relative;
+}
 	
 	/** block-item **/
 	.block-item {}
