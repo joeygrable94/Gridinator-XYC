@@ -969,58 +969,6 @@ body * {
   max-width: 480px; }
 
 /**
- * GRID C
- * 
- * .cblocks		==> content blocks
- * .cb-mode		==> content mode/instance/behavior
- * 					(mode = center, float-left/right, etc.?)
- * 
- * 		.ct-type	==> content type
- *						type = div, text, image, video, obj, etc.?)
- */
-/** cblock **/
-.cblock {
-  display: block;
-  position: relative;
-  width: auto;
-  height: auto; }
-
-/** cb-center **/
-.cb-center {
-  margin: 0 auto; }
-
-/** cb-left **/
-.cb-left,
-.float-left {
-  float: left; }
-
-/** cb-right **/
-.cb-right,
-.float-right {
-  float: right; }
-
-/** ct-text **/
-/** ct-img **/
-/** ct-video **/
-/** ct-object **/
-/** clearfix **/
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0; }
-
-* html .clearfix {
-  zoom: 1; }
-
-/* IE6 */
-*:first-child + html .clearfix {
-  zoom: 1; }
-
-/* IE7 */
-/**
  * Z GRID
  */
 /**
@@ -1080,24 +1028,66 @@ order
 
 **/
 /**
- * content blocks
- */
-.block {
-  display: block;
-  position: relative; }
-
-/** block-item **/
-/**
- * sizing
+ * GRID C
  * 
- * (unit = px, pt, pct, vh, in)
- * (value = 0-100, etc.)
+ * .gc 		==> content blocks
+ * .gc-block.mode		==> content mode/instance/behavior
+ * 					(mode = center, float-left/right, etc.?)
+ * 
+ * 		.gc-type	==> content type
+ *						type = div, text, image, video, obj, etc.?)
  */
+/** gc **/
+.gc {
+  display: block;
+  position: relative;
+  width: auto;
+  height: auto; }
+
+/** gc-center **/
+.gc-block.center {
+  margin: 0 auto; }
+
+/** gc-left **/
+.gc-block.left,
+.float-left {
+  float: left; }
+
+/** gc-right **/
+.gc-block.right,
+.float-right {
+  float: right; }
+
+/** gc-text **/
+/** gc-img **/
+/** gc-video **/
+/** gc-object **/
+/** clearfix **/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* html .clearfix {
+  zoom: 1; }
+
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1; }
+
+/* IE7 */
 /**
  * positioning
  * 
  * (local = top, right, bottom, left)
  */
+/** flex **/
+/** relative **/
+/** absolute **/
+/** fixed **/
 /**
  * vh
  **/

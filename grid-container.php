@@ -5,7 +5,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-100 flex-center">
-		<div class="cblock">
+		<div class="gc">
 			<h1>.contain</h1>
 			<h4>inches &mdash; pixels</h4>
 		</div>
@@ -14,7 +14,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.contain .c1260</h3>
 		</div>
 	</div>
@@ -36,7 +36,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.contain .c960</h3>
 		</div>
 	</div>
@@ -58,7 +58,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.contain .c720</h3>
 		</div>
 	</div>
@@ -80,7 +80,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.contain .c480</h3>
 		</div>
 	</div>

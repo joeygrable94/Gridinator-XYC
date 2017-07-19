@@ -1,8 +1,8 @@
-# Gridinator-XYZ
-XYZ Grid for rapid prototyping development
+# Gridinator-XYC
+XY-Content Grid for rapid prototyping development
 
 View Working Sample at:
-http://joeygrable.com/PROJECTS/Gridinator-XYZ/
+http://joeygrable.com/PROJECTS/Gridinator-XYC/
 
 
 
@@ -34,7 +34,7 @@ Hierarchy
 
 
 
-Z GRID
+C GRID
 —————
 
 Content Blocks

@@ -24,22 +24,22 @@
 		<!-- navigation -->
 		<div class="span-1">
 
-			<!-- Content Case / cBlock Instance -->
+			<!-- Content Case / gc Instance -->
 			<nav class="gy">
-				<a class="cblock" href="./index.php">Gridinator XYC</a>
-				<a class="cblock" href="./grid-y.php">grid Y</a>
-				<a class="cblock" href="./grid-x.php">grid X</a>
-				<a class="cblock" href="./grid-c-content-blocks.php">grid C</a>
-				<!--<a class="cblock" href="./grid-inch.php">grid inch</a>-->
-				<a class="cblock" href="./grid-container.php">containers</a>
-				<a class="cblock" href="./grid-nested.php">nested grids</a>
-				<a class="cblock" href="./grid-hierarchy.php">structured hierarchy</a>
-				<a class="cblock" href="./grid-typography.php">typography</a>
+				<a class="gc" href="./index.php">Gridinator XYC</a>
+				<a class="gc" href="./grid-y.php">grid Y</a>
+				<a class="gc" href="./grid-x.php">grid X</a>
+				<a class="gc" href="./grid-c.php">grid C</a>
+				<!--<a class="gc" href="./grid-inch.php">grid inch</a>-->
+				<a class="gc" href="./grid-container.php">containers</a>
+				<a class="gc" href="./grid-nested.php">nested grids</a>
+				<a class="gc" href="./grid-hierarchy.php">structured hierarchy</a>
+				<a class="gc" href="./grid-typography.php">typography</a>
 			</nav>
-			<!-- Content Case / cBlock Instance -->
+			<!-- Content Case / gc Instance -->
 
 		</div>
 		<!-- END navigation -->
 		<!-- content -->
 		<div class="span-11">
-			<div class="gy cblock gy-scroll">
+			<div class="gy gc gy-scroll">

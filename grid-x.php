@@ -5,7 +5,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-100 flex-center">
-		<div class="cblock">
+		<div class="gc">
 			<h1>.gx</h1>
 		</div>
 	</div>
@@ -13,7 +13,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.gcol-24</h3>
 		</div>
 	</div>
@@ -47,7 +47,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.gcol-20</h3>
 		</div>
 	</div>
@@ -77,7 +77,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.gcol-15</h3>
 		</div>
 	</div>
@@ -102,7 +102,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.gcol-12</h3>
 		</div>
 	</div>
@@ -124,7 +124,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.gcol-10</h3>
 		</div>
 	</div>
@@ -144,7 +144,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.gcol-9</h3>
 		</div>
 	</div>
@@ -163,7 +163,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.gcol-8</h3>
 		</div>
 	</div>
@@ -181,7 +181,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.gcol-6</h3>
 		</div>
 	</div>
@@ -197,7 +197,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.gcol-5</h3>
 		</div>
 	</div>
@@ -212,7 +212,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.gcol-4</h3>
 		</div>
 	</div>
@@ -226,7 +226,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.gcol-3</h3>
 		</div>
 	</div>
@@ -239,7 +239,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-50 gy-title">
-		<div class="cblock">
+		<div class="gc">
 			<h3>.gcol-2</h3>
 		</div>
 	</div>

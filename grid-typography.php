@@ -5,7 +5,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-100 flex-center">
-		<div class="cblock">
+		<div class="gc">
 			<h1>Typography</h1>
 			<h2>( work in progress )</h2>
 		</div>
@@ -13,8 +13,8 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gx cblock gcol-12 contain c540 baseline-grid-18px">
-		<div class="span-12">
+	<div class="gx gcol-12 contain c540 baseline-grid-18px">
+		<div class="gc gc-text span-12">
 			<h1>Typographic Grid</h1>
 
 			<h2>Example Paragraph</h2>

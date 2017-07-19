@@ -4,7 +4,7 @@
 
 	<!-- gridinator -->
 	<div class="gy gflex grow-vh-100 flex-center">
-		<div class="cblock">
+		<div class="gc gc-text">
 			<h1>gridinator xy<sup>c</sup></h1>
 			<p>by Joey Grable</p>
 		</div>
