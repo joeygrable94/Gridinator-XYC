@@ -27,8 +27,8 @@
 			<!-- Content Case / gc Instance -->
 			<nav class="gy">
 				<a class="gc" href="./index.php">Gridinator XYC</a>
-				<a class="gc" href="./grid-y.php">grid Y</a>
 				<a class="gc" href="./grid-x.php">grid X</a>
+				<a class="gc" href="./grid-y.php">grid Y</a>
 				<a class="gc" href="./grid-c.php">grid C</a>
 				<!--<a class="gc" href="./grid-inch.php">grid inch</a>-->
 				<a class="gc" href="./grid-container.php">containers</a>

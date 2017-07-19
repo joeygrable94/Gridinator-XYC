@@ -23,7 +23,7 @@
 [class^="span-"]:last-child {	border-right: none;	}
 
 div:hover {
-	background-color: rgba(0, 0, 0, 0.05);
+	/* background-color: rgba(0, 0, 0, 0.05); */
 	-webkit-transition: all .1s ease;
 	transition: all .1s ease;
 	cursor: default;

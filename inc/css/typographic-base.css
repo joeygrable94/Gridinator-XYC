@@ -1,15 +1,15 @@
 
 body {
-	font: 10px/2 "Lucida Grande", Helvetica, Sans-Serif;	
+	font: 10px/2 Sans-Serif;
 }
 
 h1 {
-	font: 42px Georgia, Serif;
+	font: 50px Sans-Serif;
 	margin: 0 0 10px 0;
 }
 h2 {
-	font: 20px Georgia, Serif;
-	margin: 0 0 1px 0;
+	font: 20px Sans-Serif;
+	margin: 5px 0 5px 0;
 }
 h2.bump {
 	text-indent: 70px;
@@ -18,7 +18,7 @@ h2.bump {
 
 
 p {
-	margin: 0 0 15px 0;
+	margin: 0 0 10px 0;
 	color: #666;
 }
 p.thin {
@@ -28,7 +28,7 @@ p.thin {
 
 
 blockquote {
-	font: italic 15px/20px Georgia, Serif;
+	font: italic 15px/20px Sans-Serif;
 	width: 180px;
 }
 
@@ -49,11 +49,11 @@ ul.meta {
 }
 ul.meta li {	text-align: right;	}
 ul.meta li.author {
-	font: normal small-caps normal 15px Georgia, Serif;
-	margin: 0 0 2px 0;
+	font: normal small-caps normal 15px Sans-Serif;
+	margin: 0 0 3px 0;
 	letter-spacing: 2px;
 }
-ul.meta li.date {	margin: 0 0 10px 0;	}
+ul.meta li.date {	margin: 0 0 20px 0;	}
 ul.meta li.comments {	font-style: italic;	}
 
 

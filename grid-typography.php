@@ -13,7 +13,7 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gx gcol-12 contain c540 baseline-grid-18px">
+	<div class="gx gcol-12 contain c540 baseline-grid-10px">
 		<div class="gc gc-text span-12">
 			<h1>Typographic Grid</h1>
 
