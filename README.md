@@ -1,6 +1,8 @@
 # Gridinator-XYC
 XY-Content Grid for rapid prototyping development
 
+The purpose of this project is to systematically divise a prototyping process that separates the grid structure from the content styles, in order that content may be better structured interdependently, and styled consistantly, using one sysinct framework.
+
 View Working Sample at:
 http://joeygrable.com/PROJECTS/Gridinator-XYC/
 
