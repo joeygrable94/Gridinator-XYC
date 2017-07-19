@@ -1,6 +1,8 @@
 # Gridinator-XYC
 XY-Content Grid for rapid prototyping development
 
+The purpose of this project is to divise a CSS prototyping framework that separates the grid structure from content styles, in order that pages are structured interdependently, and content is styled consistantly.
+
 View Working Sample at:
 http://joeygrable.com/PROJECTS/Gridinator-XYC/
 
