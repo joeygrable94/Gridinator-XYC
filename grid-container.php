@@ -4,8 +4,8 @@
 
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-100 flex-center">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-100 flex-center">
+		<div class="cblock">
 			<h1>.contain</h1>
 			<h4>inches &mdash; pixels</h4>
 		</div>
@@ -13,12 +13,12 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-50 gy-title">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-50 gy-title">
+		<div class="cblock">
 			<h3>.contain .c1260</h3>
 		</div>
 	</div>
-	<div class="gy flex grow-vh-50 gx gcol-12 contain c1260">
+	<div class="gy gflex grow-vh-50 gx gcol-12 contain c1260">
 		<div class="span-1">.gcol</div>
 		<div class="span-1">.gcol</div>
 		<div class="span-1">.gcol</div>
@@ -35,12 +35,12 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-50 gy-title">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-50 gy-title">
+		<div class="cblock">
 			<h3>.contain .c960</h3>
 		</div>
 	</div>
-	<div class="gy flex grow-vh-50 gx gcol-12 contain c960">
+	<div class="gy gflex grow-vh-50 gx gcol-12 contain c960">
 		<div class="span-1">.gcol</div>
 		<div class="span-1">.gcol</div>
 		<div class="span-1">.gcol</div>
@@ -57,12 +57,12 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-50 gy-title">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-50 gy-title">
+		<div class="cblock">
 			<h3>.contain .c720</h3>
 		</div>
 	</div>
-	<div class="gy flex grow-vh-50 gx gcol-12 contain c720">
+	<div class="gy gflex grow-vh-50 gx gcol-12 contain c720">
 		<div class="span-1">.gcol</div>
 		<div class="span-1">.gcol</div>
 		<div class="span-1">.gcol</div>
@@ -79,12 +79,12 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-50 gy-title">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-50 gy-title">
+		<div class="cblock">
 			<h3>.contain .c480</h3>
 		</div>
 	</div>
-	<div class="gy flex grow-vh-50 gx gcol-12 contain c480">
+	<div class="gy gflex grow-vh-50 gx gcol-12 contain c480">
 		<div class="span-1">.gcol</div>
 		<div class="span-1">.gcol</div>
 		<div class="span-1">.gcol</div>

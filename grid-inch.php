@@ -4,16 +4,16 @@
 
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-100 flex-center">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-100 flex-center">
+		<div class="cblock">
 			<h1>.gx-inch</h1>
 		</div>
 	</div>
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-50 gy-title">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-50 gy-title">
+		<div class="cblock">
 			<h3>.gcol-20</h3>
 			<p>20 inch column grid, centered<br>
 			baseline grid: 1 in. (72px, 6 picas)</p>
@@ -46,8 +46,8 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-50 gy-title">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-50 gy-title">
+		<div class="cblock">
 			<h3>.gcol-15</h3>
 			<p>15 inch column grid, centered<br>
 			baseline grid: 1 in. (72px, 6 picas)</p>
@@ -75,8 +75,8 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-50 gy-title">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-50 gy-title">
+		<div class="cblock">
 			<h3>.gcol-12</h3>
 			<p>12 inch column grid, centered<br>
 			baseline grid: 1 in. (72px, 6 picas)</p>
@@ -101,8 +101,8 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-50 gy-title">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-50 gy-title">
+		<div class="cblock">
 			<h3>.gcol-10</h3>
 			<p>10 inch column grid, centered<br>
 			baseline grid: 1 in. (72px, 6 picas)</p>
@@ -125,8 +125,8 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-50 gy-title">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-50 gy-title">
+		<div class="cblock">
 			<h3>.gcol-9</h3>
 			<p>9 inch column grid, centered<br>
 			baseline grid: 1 in. (72px, 6 picas)</p>
@@ -148,8 +148,8 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-50 gy-title">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-50 gy-title">
+		<div class="cblock">
 			<h3>.gcol-8</h3>
 			<p>8 inch column grid, centered<br>
 			baseline grid: 1 in. (72px, 6 picas)</p>
@@ -170,8 +170,8 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-50 gy-title">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-50 gy-title">
+		<div class="cblock">
 			<h3>.gcol-5</h3>
 			<p>5 inch column grid, centered<br>
 			baseline grid: 1 in. (72px, 6 picas)</p>

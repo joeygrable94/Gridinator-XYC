@@ -4,15 +4,16 @@
 
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-100 flex-center">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-100 flex-center">
+		<div class="cblock">
 			<h1>Typography</h1>
+			<h2>( work in progress )</h2>
 		</div>
 	</div>
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gx block gcol-12 contain c540 baseline-grid-18px">
+	<div class="gx cblock gcol-12 contain c540 baseline-grid-18px">
 		<div class="span-12">
 			<h1>Typographic Grid</h1>
 
@@ -50,7 +51,7 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-25"></div>
+	<div class="gy gflex grow-vh-25"></div>
 	<!-- END gridinator -->
 
 

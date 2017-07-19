@@ -18,24 +18,6 @@ body * {
 
 
 /**
- * CLEARFIX
- */
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-* html .clearfix             { zoom: 1; } /* IE6 */
-*:first-child+html .clearfix { zoom: 1; } /* IE7 */
-
-
-
-
-
-/**
  * typograhic grid
  * 
  * @assumption => 96 pixels per inch
@@ -61,47 +43,23 @@ body * {
 
 
 /**
- * BOX MODEL
- */
-.block {
-	display: block;
-	position: relative;
-	width: auto;
-	height: auto;
-}
-
-/** floats **/
-.float-left		{	float: left;	}
-.float-right	{	float: right;	}
-
-
-
-
-
-/**
  * GRID FLEX
  * 
  * .gy
- * .grow
- *   .#-unit
+ * .grow-unit-#
  * 
  * .gx
  * .gcol-#
- *   .col
  *   .span-#
  */
 /** grid flex **/
-.flex {
-	
+.gflex {
 	-webkit-display: flex;
 	display: flex;
-
 	-webkit-flex-direction: row;
 	flex-direction: row;
-
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;
-	
+	-webkit-flex-wrap: nowrap;
+	flex-wrap: nowrap;
 	/**
 	row | row-reverse | column | column-reverse
 	-webkit-flex-direction:;
@@ -426,15 +384,13 @@ body * {
 
 
 
+/** gx-inch **/
 /**
- * gx-inch
-**/
 .gx-inch {
 
 	width: 100%;
 	margin: 0 auto;
 
-	/* flex */
 	-webkit-display: flex;
 	display: flex;
 	
@@ -454,21 +410,25 @@ body * {
 	align-content: flex-start;
 
 }
+**/
 
 	/** inch columns **/
-	.gx-inch.gcol-20 {		max-width: $grid-int-inch * 20;		} /** 20 in. **/
-	.gx-inch.gcol-15 {		max-width: $grid-int-inch * 15;		} /** 15 in. **/
-	.gx-inch.gcol-12 {		max-width: $grid-int-inch * 12;		} /** 12 in. **/
-	.gx-inch.gcol-10 {		max-width: $grid-int-inch * 10;		} /** 10 in. **/
-	.gx-inch.gcol-9 {		max-width: $grid-int-inch * 9;		} /** 9 in. **/
-	.gx-inch.gcol-8 {		max-width: $grid-int-inch * 7;		} /** 8 in. **/
-	.gx-inch.gcol-5 {		max-width: $grid-int-inch * 5;		} /** 5 in. **/
-	.gx-inch.gcol-4 {		max-width: $grid-int-inch * 4;		} /** 5 in. **/
-	.gx-inch.gcol-3 {		max-width: $grid-int-inch * 3;		} /** 5 in. **/
-	.gx-inch.gcol-2 {		max-width: $grid-int-inch * 2;		} /** 5 in. **/
-	.gx-inch.gcol-1 {		max-width: $grid-int-inch * 1;		} /** 5 in. **/
+	/*
+	.gx-inch.gcol-20 {		max-width: $grid-int-inch * 20;		}
+	.gx-inch.gcol-15 {		max-width: $grid-int-inch * 15;		}
+	.gx-inch.gcol-12 {		max-width: $grid-int-inch * 12;		}
+	.gx-inch.gcol-10 {		max-width: $grid-int-inch * 10;		}
+	.gx-inch.gcol-9 {		max-width: $grid-int-inch * 9;		}
+	.gx-inch.gcol-8 {		max-width: $grid-int-inch * 7;		}
+	.gx-inch.gcol-5 {		max-width: $grid-int-inch * 5;		}
+	.gx-inch.gcol-4 {		max-width: $grid-int-inch * 4;		}
+	.gx-inch.gcol-3 {		max-width: $grid-int-inch * 3;		}
+	.gx-inch.gcol-2 {		max-width: $grid-int-inch * 2;		}
+	.gx-inch.gcol-1 {		max-width: $grid-int-inch * 1;		}
+	*/
 
 	/** span-# **/
+	/*
 	.gx-inch > .span-1 	{	width: $grid-int-inch * 1;		}
 	.gx-inch > .span-2 	{	width: $grid-int-inch * 2;		}
 	.gx-inch > .span-3 	{	width: $grid-int-inch * 3;		}
@@ -489,14 +449,13 @@ body * {
 	.gx-inch > .span-18	{	width: $grid-int-inch * 18;		}
 	.gx-inch > .span-19	{	width: $grid-int-inch * 19;		}
 	.gx-inch > .span-20	{	width: $grid-int-inch * 20;		}
+	*/
 
 
 
 
 
-/**
- * CONTAINERS
- */
+/** CONTAINERS **/
 .contain { margin: 0 auto; }
 
 	/** pixels **/
@@ -510,4 +469,64 @@ body * {
 	.contain.c720	{	max-width: $breakpoint-720;		}
 	.contain.c540	{	max-width: $breakpoint-540;		}
 	.contain.c480	{	max-width: $breakpoint-480;		}
+
+
+
+
+
+/**
+ * GRID C
+ * 
+ * .cblocks		==> content blocks
+ * .cb-mode		==> content mode/instance/behavior
+ * 					(mode = center, float-left/right, etc.?)
+ * 
+ * 		.ct-type	==> content type
+ *						type = div, text, image, video, obj, etc.?)
+ */
+/** cblock **/
+.cblock {
+	display: block;
+	position: relative;
+	width: auto;
+	height: auto;
+}
+
+/** cb-center **/
+.cb-center {	margin: 0 auto;		}
+/** cb-left **/
+.cb-left,
+.float-left		{	float: left;	}
+/** cb-right **/
+.cb-right,
+.float-right	{	float: right;	}
+
+	/** ct-text **/
+	.ct-text {}
+	/** ct-img **/
+	.ct-img {}
+	/** ct-video **/
+	.ct-video {}
+	/** ct-object **/
+	.ct-svg {}
+
+
+
+
+
+/** clearfix **/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+
+
 

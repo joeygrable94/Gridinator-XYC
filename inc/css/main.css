@@ -89,25 +89,6 @@ body * {
   box-sizing: border-box; }
 
 /**
- * CLEARFIX
- */
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0; }
-
-* html .clearfix {
-  zoom: 1; }
-
-/* IE6 */
-*:first-child + html .clearfix {
-  zoom: 1; }
-
-/* IE7 */
-/**
  * typograhic grid
  * 
  * @assumption => 96 pixels per inch
@@ -158,41 +139,23 @@ body * {
   background: url("../images/baseline-grid/baseline-grid-96px.jpg") repeat; }
 
 /**
- * BOX MODEL
- */
-.block {
-  display: block;
-  position: relative;
-  width: auto;
-  height: auto; }
-
-/** floats **/
-.float-left {
-  float: left; }
-
-.float-right {
-  float: right; }
-
-/**
  * GRID FLEX
  * 
  * .gy
- * .grow
- *   .#-unit
+ * .grow-unit-#
  * 
  * .gx
  * .gcol-#
- *   .col
  *   .span-#
  */
 /** grid flex **/
-.flex {
+.gflex {
   -webkit-display: flex;
   display: flex;
   -webkit-flex-direction: row;
   flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
   /**
   row | row-reverse | column | column-reverse
   -webkit-flex-direction:;
@@ -906,135 +869,71 @@ body * {
 .gx.gcol-2 > .span-2 {
   width: 100%; }
 
+/** gx-inch **/
 /**
- * gx-inch
-**/
 .gx-inch {
-  width: 100%;
-  margin: 0 auto;
-  /* flex */
-  -webkit-display: flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: stretch;
-  align-items: stretch;
-  -webkit-align-content: flex-start;
-  align-content: flex-start; }
 
+	width: 100%;
+	margin: 0 auto;
+
+	-webkit-display: flex;
+	display: flex;
+	
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	
+	-webkit-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	
+	-webkit-justify-content: center;
+	justify-content: center;
+	
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	
+	-webkit-align-content: flex-start;
+	align-content: flex-start;
+
+}
+**/
 /** inch columns **/
-.gx-inch.gcol-20 {
-  max-width: 1920px; }
-
-/** 20 in. **/
-.gx-inch.gcol-15 {
-  max-width: 1440px; }
-
-/** 15 in. **/
-.gx-inch.gcol-12 {
-  max-width: 1152px; }
-
-/** 12 in. **/
-.gx-inch.gcol-10 {
-  max-width: 960px; }
-
-/** 10 in. **/
-.gx-inch.gcol-9 {
-  max-width: 864px; }
-
-/** 9 in. **/
-.gx-inch.gcol-8 {
-  max-width: 672px; }
-
-/** 8 in. **/
-.gx-inch.gcol-5 {
-  max-width: 480px; }
-
-/** 5 in. **/
-.gx-inch.gcol-4 {
-  max-width: 384px; }
-
-/** 5 in. **/
-.gx-inch.gcol-3 {
-  max-width: 288px; }
-
-/** 5 in. **/
-.gx-inch.gcol-2 {
-  max-width: 192px; }
-
-/** 5 in. **/
-.gx-inch.gcol-1 {
-  max-width: 96px; }
-
-/** 5 in. **/
+/*
+.gx-inch.gcol-20 {		max-width: $grid-int-inch * 20;		}
+.gx-inch.gcol-15 {		max-width: $grid-int-inch * 15;		}
+.gx-inch.gcol-12 {		max-width: $grid-int-inch * 12;		}
+.gx-inch.gcol-10 {		max-width: $grid-int-inch * 10;		}
+.gx-inch.gcol-9 {		max-width: $grid-int-inch * 9;		}
+.gx-inch.gcol-8 {		max-width: $grid-int-inch * 7;		}
+.gx-inch.gcol-5 {		max-width: $grid-int-inch * 5;		}
+.gx-inch.gcol-4 {		max-width: $grid-int-inch * 4;		}
+.gx-inch.gcol-3 {		max-width: $grid-int-inch * 3;		}
+.gx-inch.gcol-2 {		max-width: $grid-int-inch * 2;		}
+.gx-inch.gcol-1 {		max-width: $grid-int-inch * 1;		}
+*/
 /** span-# **/
-.gx-inch > .span-1 {
-  width: 96px; }
-
-.gx-inch > .span-2 {
-  width: 192px; }
-
-.gx-inch > .span-3 {
-  width: 288px; }
-
-.gx-inch > .span-4 {
-  width: 384px; }
-
-.gx-inch > .span-5 {
-  width: 480px; }
-
-.gx-inch > .span-6 {
-  width: 576px; }
-
-.gx-inch > .span-7 {
-  width: 672px; }
-
-.gx-inch > .span-8 {
-  width: 768px; }
-
-.gx-inch > .span-9 {
-  width: 864px; }
-
-.gx-inch > .span-10 {
-  width: 960px; }
-
-.gx-inch > .span-11 {
-  width: 1056px; }
-
-.gx-inch > .span-12 {
-  width: 1152px; }
-
-.gx-inch > .span-13 {
-  width: 1248px; }
-
-.gx-inch > .span-14 {
-  width: 1344px; }
-
-.gx-inch > .span-15 {
-  width: 1440px; }
-
-.gx-inch > .span-16 {
-  width: 1536px; }
-
-.gx-inch > .span-17 {
-  width: 1632px; }
-
-.gx-inch > .span-18 {
-  width: 1728px; }
-
-.gx-inch > .span-19 {
-  width: 1824px; }
-
-.gx-inch > .span-20 {
-  width: 1920px; }
-
-/**
- * CONTAINERS
- */
+/*
+.gx-inch > .span-1 	{	width: $grid-int-inch * 1;		}
+.gx-inch > .span-2 	{	width: $grid-int-inch * 2;		}
+.gx-inch > .span-3 	{	width: $grid-int-inch * 3;		}
+.gx-inch > .span-4 	{	width: $grid-int-inch * 4;		}
+.gx-inch > .span-5 	{	width: $grid-int-inch * 5;		}
+.gx-inch > .span-6 	{	width: $grid-int-inch * 6;		}
+.gx-inch > .span-7 	{	width: $grid-int-inch * 7;		}
+.gx-inch > .span-8 	{	width: $grid-int-inch * 8;		}
+.gx-inch > .span-9 	{	width: $grid-int-inch * 9;		}
+.gx-inch > .span-10	{	width: $grid-int-inch * 10;		}
+.gx-inch > .span-11	{	width: $grid-int-inch * 11;		}
+.gx-inch > .span-12	{	width: $grid-int-inch * 12;		}
+.gx-inch > .span-13	{	width: $grid-int-inch * 13;		}
+.gx-inch > .span-14	{	width: $grid-int-inch * 14;		}
+.gx-inch > .span-15	{	width: $grid-int-inch * 15;		}
+.gx-inch > .span-16	{	width: $grid-int-inch * 16;		}
+.gx-inch > .span-17	{	width: $grid-int-inch * 17;		}
+.gx-inch > .span-18	{	width: $grid-int-inch * 18;		}
+.gx-inch > .span-19	{	width: $grid-int-inch * 19;		}
+.gx-inch > .span-20	{	width: $grid-int-inch * 20;		}
+*/
+/** CONTAINERS **/
 .contain {
   margin: 0 auto; }
 
@@ -1069,6 +968,58 @@ body * {
 .contain.c480 {
   max-width: 480px; }
 
+/**
+ * GRID C
+ * 
+ * .cblocks		==> content blocks
+ * .cb-mode		==> content mode/instance/behavior
+ * 					(mode = center, float-left/right, etc.?)
+ * 
+ * 		.ct-type	==> content type
+ *						type = div, text, image, video, obj, etc.?)
+ */
+/** cblock **/
+.cblock {
+  display: block;
+  position: relative;
+  width: auto;
+  height: auto; }
+
+/** cb-center **/
+.cb-center {
+  margin: 0 auto; }
+
+/** cb-left **/
+.cb-left,
+.float-left {
+  float: left; }
+
+/** cb-right **/
+.cb-right,
+.float-right {
+  float: right; }
+
+/** ct-text **/
+/** ct-img **/
+/** ct-video **/
+/** ct-object **/
+/** clearfix **/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* html .clearfix {
+  zoom: 1; }
+
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1; }
+
+/* IE7 */
 /**
  * Z GRID
  */
@@ -1556,6 +1507,14 @@ p {
 
 p small {
   font-style: italic; }
+
+/**
+ * special
+ */
+sup {
+  position: absolute;
+  font-size: 75%;
+  margin-top: -2.5%; }
 
 /**
  * lists

@@ -4,8 +4,8 @@
 
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-100 flex-center">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-100 flex-center">
+		<div class="cblock">
 			<h1>Hierarchy</h1>
 			<h4>grid structure</h4>
 		</div>
@@ -13,8 +13,8 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-50 gy-title">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-50 gy-title">
+		<div class="cblock">
 			<h3>composition #1</h3>
 			<h4>960px container</h4>
 			<p>header ( main + aside ) footer</p>
@@ -23,10 +23,10 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex gx gcol-12 contain c960">
+	<div class="gy gflex gx gcol-12 contain c960">
 		<div class="span-12">
 				
-			<div class="gy flex grow-vh-10 gx gcol-12 border-bot">
+			<div class="gy gflex grow-vh-10 gx gcol-12 border-bot">
 				<div class="span-12">
 					
 					<div class="block">.block
@@ -37,7 +37,7 @@
 				</div>
 			</div>
 
-			<div class="gy flex grow-vh-20 gx gcol-12 border-bot">
+			<div class="gy gflex grow-vh-20 gx gcol-12 border-bot">
 				<div class="span-8">
 
 					<div class="block">.block
@@ -56,7 +56,7 @@
 				</div>
 			</div>
 
-			<div class="gy flex grow-vh-10 gx gcol-12">
+			<div class="gy gflex grow-vh-10 gx gcol-12">
 				<div class="span-12">
 
 					<div class="block">.block
@@ -72,8 +72,8 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex grow-vh-50 gy-title">
-		<div class="grid-box">
+	<div class="gy gflex grow-vh-50 gy-title">
+		<div class="cblock">
 			<h3>composition #2</h3>
 			<h4>1080px container</h4>
 			<p>header ( aside + main [ 4 column] ) footer</p>
@@ -82,10 +82,10 @@
 	<!-- END gridinator -->
 
 	<!-- gridinator -->
-	<div class="gy flex gx gcol-12 contain c1080">
+	<div class="gy gflex gx gcol-12 contain c1080">
 		<div class="span-12">
 			
-			<div class="gy flex grow-vh-10 gx gcol-12 border-bot">
+			<div class="gy gflex grow-vh-10 gx gcol-12 border-bot">
 				<div class="span-12">
 
 					<div class="block">.block
@@ -96,7 +96,7 @@
 				</div>
 			</div>
 
-			<div class="gy flex grow-vh-20 gx gcol-12 border-bot">
+			<div class="gy gflex grow-vh-20 gx gcol-12 border-bot">
 				<div class="span-2">
 					
 					<div class="block">.block
@@ -107,7 +107,7 @@
 				</div>
 				<div class="span-10">
 
-					<div class="gy flex grow-vh-20 gx gcol-12 border-bot">
+					<div class="gy gflex grow-vh-20 gx gcol-12 border-bot">
 						<div class="span-3">
 
 							<div class="block">.block
@@ -145,7 +145,7 @@
 				</div>
 			</div>
 
-			<div class="gy flex grow-vh-10 gx gcol-12">
+			<div class="gy gflex grow-vh-10 gx gcol-12">
 				<div class="span-12">
 
 					<div class="block">.block

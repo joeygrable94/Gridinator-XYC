@@ -3,7 +3,7 @@
 <head>
 
 	<!-- meta -->
-	<title>gridinator xyz</title>
+	<title>gridinator xyc</title>
 	<meta charset="utf-8" author="Joey Grable">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
@@ -20,26 +20,26 @@
 <body class="">
 
 	<!-- wrap -->
-	<div class="gy flex grow-vh-100 gx flex gcol-12">
+	<div class="gy gflex grow-vh-100 gx gcol-12">
 		<!-- navigation -->
 		<div class="span-1">
 
-			<!-- Content Case / Block Instance -->
+			<!-- Content Case / cBlock Instance -->
 			<nav class="gy">
-				<a class="block" href="./index.php">Gridinator XYZ</a>
-				<a class="block" href="./grid-y.php">grid Y</a>
-				<a class="block" href="./grid-x.php">grid X</a>
-				<a class="block" href="./grid-inch.php">grid inch</a>
-				<a class="block" href="./grid-container.php">grid containers</a>
-				<a class="block" href="./grid-nested.php">grid nested</a>
-				<a class="block" href="./grid-hierarchy.php">grid hierarchy</a>
-				<a class="block" href="./grid-typography.php">typography</a>
-				<a class="block" href="./grid-content-blocks.php">content blocks</a>
+				<a class="cblock" href="./index.php">Gridinator XYC</a>
+				<a class="cblock" href="./grid-y.php">grid Y</a>
+				<a class="cblock" href="./grid-x.php">grid X</a>
+				<a class="cblock" href="./grid-c-content-blocks.php">grid C</a>
+				<!--<a class="cblock" href="./grid-inch.php">grid inch</a>-->
+				<a class="cblock" href="./grid-container.php">containers</a>
+				<a class="cblock" href="./grid-nested.php">nested grids</a>
+				<a class="cblock" href="./grid-hierarchy.php">structured hierarchy</a>
+				<a class="cblock" href="./grid-typography.php">typography</a>
 			</nav>
-			<!-- Content Case / Block Instance -->
+			<!-- Content Case / cBlock Instance -->
 
 		</div>
 		<!-- END navigation -->
 		<!-- content -->
 		<div class="span-11">
-			<div class="gy block gy-scroll">
+			<div class="gy cblock gy-scroll">
