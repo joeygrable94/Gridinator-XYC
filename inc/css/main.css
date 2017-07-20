@@ -1383,6 +1383,164 @@ order
   height: 1920px; }
 
 /**
+ * IMPORTS
+ */
+/*
+@font-face {
+	font-family: '';
+	src: url('');
+}
+*/
+/**
+ * typography
+ */
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400; }
+
+/**
+ * headings
+ */
+/*
+$font-primary
+$font-secondary
+$font-teriary
+
+$font-size-base
+$line-height-base
+$font-weight-base
+*/
+/*
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-primary;
+}
+h1 {
+	font-family: inherit;
+	font-size: $font-size-base * (4 * $typo-grid-interval);
+	line-height:  $line-height-base * 4;
+	padding-top: $padding-xl;
+	padding-bottom: $padding-lg;
+}
+h2 {
+	font-family: inherit;
+	font-size: $font-size-base * (3 * $typo-grid-interval);
+	line-height:  $line-height-base * 3;
+	padding-top: $padding-lg;
+	padding-bottom: $padding-md;
+}
+h3 {
+	font-family: inherit;
+	font-size: $font-size-base * (2 * $typo-grid-interval);
+	line-height:  $line-height-base * 3;
+	padding-top: $padding-md;
+	padding-bottom: $padding-sm;
+}
+h4 {
+	font-family: inherit;
+	font-size: $font-size-base * (1 * $typo-grid-interval);
+	line-height:  $line-height-base * 1;
+	padding-top: $padding-sm;
+	padding-bottom: $padding-xs;
+}
+h5 {
+	font-size: $font-size-base;
+	line-height:  $line-height-base;
+	line-height:  $line-height-base;
+	padding-top: $padding-xs;
+	padding-bottom: $padding-none;
+	font-style: italic;
+}
+h6 {
+	font-family: $font-teriary;
+	font-size: $font-size-base;
+	line-height:  $line-height-base;
+	padding-top: $padding-lg;
+	padding-bottom: $padding-lg;
+	font-weight: 900;
+}
+h1 small, h2 small, h3 small,
+h4 small, h5 small, h6 small {}
+*/
+/**
+ * links
+ */
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer; }
+
+/** 
+ * paragraphs
+ */
+/*
+p {
+	font-family: $font-secondary;
+	font-size: $font-size-base;
+	line-height:  $line-height-base;
+	font-weight: $font-weight-base;
+	font-style: $font-style-base;
+	padding-bottom: $padding-md;
+}
+p small {
+	font-style: italic;
+}
+*/
+/**
+ * special
+ */
+sup {
+  position: absolute;
+  font-size: 75%;
+  margin-top: -2.5%; }
+
+/**
+ * lists
+ */
+/*
+ul {
+	list-style: disc;
+	margin-top: $margin;
+	margin-bottom: $margin;
+	font-family: $font-primary;
+}
+li {
+	display: list-item;
+	list-style-position: inside;
+	padding-left: $padding;
+}
+*/
+/**
+ * definition lists
+ */
+/*
+dl {
+	position: relative;
+	display: block;
+}
+dt {
+	margin-top: $margin;
+	margin-bottom: $margin;
+}
+dd {
+	margin-left: $margin;
+}
+*/
+/**
+ * appendable classes
+ */
+/*
+.text-right { text-align: right; }
+.text-italic { font-style: italic; }
+.text-center { text-align: center; }
+*/
+/**
  * responsive styles
  */
 

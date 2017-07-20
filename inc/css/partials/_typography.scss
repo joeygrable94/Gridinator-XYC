@@ -4,20 +4,8 @@
 
 /*
 @font-face {
-	font-family: 'akzg-bold';
-	src: url("../fonts/AkzidenzGrotesk-Bold.otf");
-}
-@font-face {
-	font-family: 'akzg-light';
-	src: url("../fonts/AkzidenzGrotesk-Light.otf");
-}
-@font-face {
-	font-family: 'akzg-light-italic';
-	src: url("../fonts/AkzidenzGrotesk-LightItalic.otf");
-}
-@font-face {
-	font-family: 'akzg-super';
-	src: url("../fonts/AkzidenzGrotesk-Super.otf");
+	font-family: '';
+	src: url('');
 }
 */
 
@@ -45,10 +33,6 @@ body {
 /**
  * headings
  */
-h1, h2, h3, h4, h5, h6 {
-	font-family: $font-primary;
-}
-
 /*
 $font-primary
 $font-secondary
@@ -58,7 +42,10 @@ $font-size-base
 $line-height-base
 $font-weight-base
 */
-
+/*
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-primary;
+}
 h1 {
 	font-family: inherit;
 	font-size: $font-size-base * (4 * $typo-grid-interval);
@@ -105,6 +92,7 @@ h6 {
 }
 h1 small, h2 small, h3 small,
 h4 small, h5 small, h6 small {}
+*/
 
 
 
@@ -118,7 +106,7 @@ a:visited {}
 a:hover {}
 a:active {}
 a {
-	text-decoration: underline;
+	text-decoration: none;
 }
 a:hover {
 	text-decoration: underline;
@@ -132,6 +120,7 @@ a:hover {
 /** 
  * paragraphs
  */
+/*
 p {
 	font-family: $font-secondary;
 	font-size: $font-size-base;
@@ -143,6 +132,7 @@ p {
 p small {
 	font-style: italic;
 }
+*/
 
 
 
@@ -164,6 +154,7 @@ sup {
 /**
  * lists
  */
+/*
 ul {
 	list-style: disc;
 	margin-top: $margin;
@@ -175,6 +166,7 @@ li {
 	list-style-position: inside;
 	padding-left: $padding;
 }
+*/
 
 
 
@@ -183,6 +175,7 @@ li {
 /**
  * definition lists
  */
+/*
 dl {
 	position: relative;
 	display: block;
@@ -194,6 +187,7 @@ dt {
 dd {
 	margin-left: $margin;
 }
+*/
 
 
 
@@ -202,7 +196,8 @@ dd {
 /**
  * appendable classes
  */
+/*
 .text-right { text-align: right; }
 .text-italic { font-style: italic; }
 .text-center { text-align: center; }
-
+*/
