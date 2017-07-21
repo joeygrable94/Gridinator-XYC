@@ -198,8 +198,10 @@ dd {
 /**
  * appendable classes
  */
-/*
-.text-right { text-align: right; }
-.text-italic { font-style: italic; }
-.text-center { text-align: center; }
-*/
+.text-left		{ text-align: left;		}
+.text-center	{ text-align: center;	}
+.text-right		{ text-align: right;	}
+.text-justify	{ text-align: justify;	}
+
+.font-italic	{ font-style: italic;	}
+.font-bold		{ font-weight: bold;	}

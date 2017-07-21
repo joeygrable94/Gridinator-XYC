@@ -53,7 +53,8 @@ body * {
  *   .span-#
  */
 /** grid flex **/
-.gflex {
+.gflex,
+.gy-flex {
 	-webkit-display: flex;
 	display: flex;
 	-webkit-flex-direction: row;

@@ -68,17 +68,18 @@
 /**
  * SPACING
  */
-$spacing-base: 9px;
-$spacing-interval: (2/3);
+$spacing-base: 1em;
+$spacing-interval: (1.414);
 
 	/** defaults **/
- 	$xs-spacing: $spacing-base * (1 * $spacing-interval); // 6px
-	$sm-spacing: $spacing-base * (2 * $spacing-interval); // 9px
-	$md-spacing: $spacing-base * (3 * $spacing-interval); // 18px
-	$lg-spacing: $spacing-base * (4 * $spacing-interval); // 24px
-	$xl-spacing: $spacing-base * (6 * $spacing-interval); // 36px
-	$xxl-spacing: $spacing-base * (12 * $spacing-interval); // 72px
-	$xxxl-spacing: $spacing-base * (16 * $spacing-interval); // 96px
+	$base-spacing: $spacing-base;
+ 	$xs-spacing: $spacing-base * (1 * $spacing-interval);
+	$sm-spacing: $spacing-base * (2 * $spacing-interval);
+	$md-spacing: $spacing-base * (3 * $spacing-interval);
+	$lg-spacing: $spacing-base * (4 * $spacing-interval);
+	$xl-spacing: $spacing-base * (6 * $spacing-interval);
+	$xxl-spacing: $spacing-base * (12 * $spacing-interval);
+	$xxxl-spacing: $spacing-base * (16 * $spacing-interval);
 
 		/** margin **/
 		$margin: $md-spacing;

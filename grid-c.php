@@ -7,7 +7,7 @@
 	<div class="gy gflex grow-vh-100 flex-center">
 		<div class="gc">
 			<h1>.gc</h1>
-			<h2>content grid (work in progress)</h2>
+			<h4>content grid (work in progress)</h4>
 		</div>
 	</div>
 	<!-- END gridinator -->
