@@ -13,8 +13,12 @@
 
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="./inc/css/main.css">
-	<link rel="stylesheet" type="text/css" href="./inc/css/typographic-base.css">
 	<link rel="stylesheet" type="text/css" href="./inc/css/custom.css">
+
+	<!--<link rel="stylesheet" type="text/css" href="./inc/css/typographic-base.css">-->
+	<!--<link rel="stylesheet" type="text/css" href="./inc/css/vendor/typebase/typebase.css">-->
+	<!--<link rel="stylesheet" type="text/css" href="./inc/css/vendor/typesettings/typesettings.css">-->
+	<link rel="stylesheet" type="text/css" href="./inc/css/vendor/modularscale/modularscale.css">
 
 </head>
 <body class="">
@@ -24,19 +28,20 @@
 		<!-- navigation -->
 		<div class="span-1">
 
-			<!-- Content Case / gc Instance -->
-			<nav class="gy">
-				<a class="gc" href="./index.php">Gridinator XYC</a>
-				<a class="gc" href="./grid-x.php">grid X</a>
-				<a class="gc" href="./grid-y.php">grid Y</a>
-				<a class="gc" href="./grid-c.php">grid C</a>
-				<!--<a class="gc" href="./grid-inch.php">grid inch</a>-->
-				<a class="gc" href="./grid-container.php">containers</a>
-				<a class="gc" href="./grid-nested.php">nested grids</a>
-				<a class="gc" href="./grid-hierarchy.php">structured hierarchy</a>
-				<a class="gc" href="./grid-typography.php">typography</a>
+			<!-- gc-nav -->
+			<nav class="gy gc-nav">
+				<a class="lvl-1" href="./index.php">Gridinator XYC</a>
+					<a class="lvl-2" href="./grid-x.php">grid X</a>
+					<a class="lvl-2" href="./grid-y.php">grid Y</a>
+					<a class="lvl-2" href="./grid-c.php">grid C</a>
+				<a class="lvl-1" href="./grid-container.php">Features</a>
+					<a class="lvl-2" href="./grid-container.php">containers</a>
+					<a class="lvl-2" href="./grid-nested.php">nested grids</a>
+					<a class="lvl-2" href="./grid-hierarchy.php">layout sample 1</a>
+				<a class="lvl-1" href="./grid-typography.php">typography</a>
+					<a class="lvl-2" href="./grid-typography-ex01.php">type sample 1</a>
 			</nav>
-			<!-- Content Case / gc Instance -->
+			<!-- gc-nav -->
 
 		</div>
 		<!-- END navigation -->
