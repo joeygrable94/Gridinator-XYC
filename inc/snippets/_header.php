@@ -13,12 +13,12 @@
 
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="./inc/css/main.css">
+	<link rel="stylesheet" type="text/css" href="./inc/css/typographic-base.css">
 	<link rel="stylesheet" type="text/css" href="./inc/css/custom.css">
 
-	<!--<link rel="stylesheet" type="text/css" href="./inc/css/typographic-base.css">-->
 	<!--<link rel="stylesheet" type="text/css" href="./inc/css/vendor/typebase/typebase.css">-->
 	<!--<link rel="stylesheet" type="text/css" href="./inc/css/vendor/typesettings/typesettings.css">-->
-	<link rel="stylesheet" type="text/css" href="./inc/css/vendor/modularscale/modularscale.css">
+	<!--<link rel="stylesheet" type="text/css" href="./inc/css/vendor/modularscale/modularscale.css">-->
 
 </head>
 <body class="">
