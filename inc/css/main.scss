@@ -5,17 +5,19 @@
 
 // Partials
 @import "partials/reset";
-@import "partials/gridXY";
+@import "partials/base";
+@import "partials/gridX";
+@import "partials/gridY";
 @import "partials/gridC";
 @import "partials/gridUnits";
+@import "partials/containers";
 @import "partials/gridSpace";
-@import "partials/typography";
 
 // Content Styles
-// @import "partials/forms";
+@import "partials/typography";
 
 // Third-party
 // @import "vendor/";
 
 // Responsive
-@import "partials/responsive";
+// @import "partials/responsive";

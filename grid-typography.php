@@ -4,7 +4,7 @@
 
 
 	<!-- gridinator -->
-	<div class="gy gflex grow-vh-100 flex-center">
+	<div class="gy gflex grow-vh-50 flex-center">
 		<div class="gc">
 			<h1>Typography</h1>
 			<h4>(work in progress)</h4>

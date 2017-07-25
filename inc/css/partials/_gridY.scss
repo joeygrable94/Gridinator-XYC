@@ -1,0 +1,166 @@
+/**
+-webkit-display: flex;
+display: flex;
+-webkit-flex-direction: row;
+flex-direction: row;
+-webkit-flex-wrap: nowrap;
+flex-wrap: nowrap;
+row | row-reverse | column | column-reverse
+-webkit-flex-direction:;
+flex-direction:;
+wrap | wrap-reverse | nowrap
+-webkit-flex-wrap:;
+flex-wrap:;
+flex-start | flex-end | space-between | space-around | center
+-webkit-justify-content:;
+justify-content:;
+flex-start | flex-end | space-between | space-around | center
+-webkit-align-items:;
+align-items:;
+flex-start | flex-end | space-between | space-around | center
+-webkit-align-content:;
+align-content:;
+**/
+
+/**
+ * 
+ * FUNCTIONS
+ * 
+ */
+
+
+
+
+
+/**
+ * 
+ * GRID FLEX
+ * 
+ */
+.gflex,
+.gy-flex {
+	-webkit-display: flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	& .flex-center {
+		/** FLEX CENTER **/
+		-webkit-display: flex;
+		display: flex;
+		-webkit-flex-direction: row;
+		flex-direction: row;
+		-webkit-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-align-items: center;
+		align-items: center;
+		-webkit-align-content: center;
+		align-content: center;
+		/* typography */
+		text-align: center;
+	}
+}
+.gy-scroll {
+	/** window behaivor, scroll inner content **/
+	max-height: 100vh;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	&::-webkit-scrollbar {
+		/* remove scrollbar space */
+		width: 0px; 
+		/* optional: just make scrollbar invisible */
+		background: transparent;
+	}
+	&::-webkit-scrollbar-thumb {
+		/* optional: show position indicator in red */
+		background: #FF0000;
+	}
+}
+
+
+
+
+
+/**
+ * 
+ * GY
+ * 
+ */
+.gy {
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-position: center;
+
+	& .gy-fluid	{
+		/** fluid y-height, no Y constraint **/
+		min-height: 100%;
+	}
+
+	/** viewport height **/
+	@for $i from 1 through 100 {
+		& .grow-vh {
+			&-#{$i} {
+				height: unquote("#{$i}vh");
+			}
+		}
+	}
+	/** percent **/
+	@for $i from 1 through 100 {
+		& .grow-pct {
+			&-#{$i} {
+				height: unquote("#{$i}%");;
+			}
+		}
+	}
+	/** pixel **/
+	@for $i from 1 through 100 {
+		& .grow-px {
+			&-#{$i} {
+				height: unquote("#{$i}px");;
+			}
+		}
+	}
+	/** point: increment 1 **/
+	@for $i from 1 through 100 {
+		& .grow-pt {
+			&-#{$i} {
+				height: unquote("#{$i}pt");;
+			}
+		}
+	}
+	/** point: increment 10 **/
+	$ptIncr-10: 10;
+	@for $i from 1 through 30 {
+		$ptVal: $ptIncr-10 * $i;
+		& .grow-pt {
+			&-#{$ptVal} {
+				height: unquote("#{$ptVal}pt");
+			}
+		}
+	}
+	/** inch: increment 1 **/
+	@for $i from 1 through 25 {
+		& .grow-in {
+			&-#{$i} {
+				height: $inch-base * $i;
+			}
+		}
+	}
+}
+
+.no-scrollbar::-webkit-scrollbar {
+	/* remove scrollbar space */
+	width: 0px; 
+	/* optional: just make scrollbar invisible */
+	background: transparent;
+}
+.no-scrollbar::-webkit-scrollbar-thumb {
+	/* optional: show position indicator in red */
+	background: #FF0000;
+}

@@ -1,7 +1,31 @@
 /**
- * IMPORTS
+ * TYPE GRID
+ * 
+ * @assumption => 96 pixels per inch
  */
+.baseline-grid-5px	{	background: url("../images/baseline-grid/baseline-grid-5px.jpg")	repeat;	}
+.baseline-grid-8px	{	background: url("../images/baseline-grid/baseline-grid-8px.jpg")	repeat;	}
+.baseline-grid-9px	{	background: url("../images/baseline-grid/baseline-grid-9px.jpg")	repeat;	}
+.baseline-grid-10px	{	background: url("../images/baseline-grid/baseline-grid-10px.jpg")	repeat;	}
+.baseline-grid-12px	{	background: url("../images/baseline-grid/baseline-grid-12px.jpg")	repeat;	}
+.baseline-grid-14px	{	background: url("../images/baseline-grid/baseline-grid-14px.jpg")	repeat;	}
+.baseline-grid-16px	{	background: url("../images/baseline-grid/baseline-grid-16px.jpg")	repeat;	}
+.baseline-grid-18px	{	background: url("../images/baseline-grid/baseline-grid-18px.jpg")	repeat;	}
+.baseline-grid-20px	{	background: url("../images/baseline-grid/baseline-grid-20px.jpg")	repeat;	}
+.baseline-grid-25px	{	background: url("../images/baseline-grid/baseline-grid-25px.jpg")	repeat;	}
+.baseline-grid-36px	{	background: url("../images/baseline-grid/baseline-grid-36px.jpg")	repeat;	}
+.baseline-grid-48px	{	background: url("../images/baseline-grid/baseline-grid-48px.jpg")	repeat;	}
+.baseline-grid-50px	{	background: url("../images/baseline-grid/baseline-grid-50px.jpg")	repeat;	}
+.baseline-grid-72px	{	background: url("../images/baseline-grid/baseline-grid-72px.jpg")	repeat;	}
+.baseline-grid-96px	{	background: url("../images/baseline-grid/baseline-grid-96px.jpg")	repeat;	}
 
+
+
+
+
+/**
+ * FONT IMPORTS
+ */
 /*
 @font-face {
 	font-family: '';
@@ -14,7 +38,7 @@
 
 
 /**
- * typography
+ * ROOT
  */
 /*
 html {
@@ -33,7 +57,7 @@ body {
 
 
 /**
- * headings
+ * HEADLINES
  */
 /*
 $font-primary
@@ -101,7 +125,7 @@ h4 small, h5 small, h6 small {}
 
 
 /**
- * links
+ * LINKS
  */
 a:link {}
 a:visited {}
@@ -120,7 +144,7 @@ a:hover {
 
 
 /** 
- * paragraphs
+ * PARAGRAPHS
  */
 /*
 p {
@@ -135,14 +159,6 @@ p small {
 	font-style: italic;
 }
 */
-
-
-
-
-
-/**
- * special
- */
 sup {
 	position: absolute;
 	font-size: 75%;
@@ -154,7 +170,7 @@ sup {
 
 
 /**
- * lists
+ * LISTS
  */
 /*
 ul {
@@ -168,16 +184,6 @@ li {
 	list-style-position: inside;
 	padding-left: $padding;
 }
-*/
-
-
-
-
-
-/**
- * definition lists
- */
-/*
 dl {
 	position: relative;
 	display: block;
@@ -196,7 +202,7 @@ dd {
 
 
 /**
- * appendable classes
+ * ADDTIONAL
  */
 .text-left		{ text-align: left;		}
 .text-center	{ text-align: center;	}

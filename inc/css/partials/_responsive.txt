@@ -1,0 +1,392 @@
+/**
+ * 
+ * 
+ * $breakpoint VARIABLES
+ * 
+ * 
+ */
+
+$breakpoint-1920
+$breakpoint-1320
+$breakpoint-1440
+$breakpoint-1260
+$breakpoint-1080
+$breakpoint-960
+$breakpoint-840
+$breakpoint-720
+$breakpoint-540
+$breakpoint-480
+
+
+
+
+
+/**
+ * 
+ * RESEARCH & STATISTICS
+ * 
+ * StatCounter Global Stats
+ * 
+ * Browser Market Share
+ * @source => http://gs.statcounter.com/browser-market-share
+ * 
+ * Screen Resolution
+ * @source => http://gs.statcounter.com/screen-resolution-stats
+ * 
+ * Mobile, Tablet VS Desktop
+ * @source => http://gs.statcounter.com/platform-market-share/desktop-mobile-tablet
+ * 
+ */
+
+==================================================
+Top 10 GLOBAL screen resolutions Oct. - Dec. 2016
+--------------------------------------------------
+1366x768 ~ 27.25%
+1920x1080 ~ 13.25%
+768x1024 ~ 6.02%
+1280x800 ~ 5.91%
+1440x900 ~ 5.7%
+1600x900 ~ 5.28%
+1024x768 ~ 5.26%
+1280x1024 ~ 4.69%
+1680x1050 ~ 2.36%
+1280x720 ~ 2.15%
+
+==================================================
+Top 10 USA screen resolutions Oct. - Dec. 2016
+--------------------------------------------------
+1366x768 ~ 17.24%
+1920x1080 ~ 14.51%
+768x1024 ~ 10.06%
+1440x900 ~ 7.67%
+1280x800 ~ 7.51%
+1600x900 ~ 5.79%
+1280x1024 ~ 4.54%
+1024x768 ~ 3.55%
+1536x864 ~ 3.00%
+1280x720 ~ 2.83%
+
+
+
+
+
+/**
+ * 
+ * RESPONSIVE GRID
+ * 
+ * StatCounter Global General RULES
+ * @source => 
+ * 
+ */
+
+[*] it is critical you to identify the AUDIENCE and the devices they use
+
+[1] Optimise for 1024×768 - Jakob Nielsen
+	general guideline is to optimise for your target audience’s most common resolution
+
+[2] Web Page Initial visibility:
+	Is all key information visible above the fold so users can see it without scrolling?
+	How many items are shown versus how much detail is displayed for each item.
+
+[3] Web Page Readability: How easy is it to read the text in various columns,
+	given their allocated width?
+
+[4] Web Page Aesthetics: How good does your page look when the elements are at the 
+	proper size and location for this screen size? Do all the elements line up correctly?
+
+[5] AVOID:
+	"(1) Showing a popup that covers the main content, either immediately after the user
+	navigates to a page from the search results, or while they are looking through the
+	page. (2) Displaying a standalone interstitial that the user has to dismiss before
+	accessing the main content. (3) Using a layout where the above-the-fold portion of
+	the page appears similar to a standalone interstitial, but the original content has
+	been inlined underneath the fold." - Google
+
+[6] ACCESSIBILITY
+	TEXT-ONLY versions produce content for users/browsers that don't support elements 
+	of their websites – in an attempt to make their content more accessible.
+		( some say this practice is OUTDATED..? )
+	"A text-only page, with equivalent information or functionality, shall be provided
+	to make a web site comply with the provisions of this part, when compliance cannot
+	be accomplished in any other way. The content of the text-only pages shall be
+	updated whenever the primary page changes. SECTION 508" - W3C
+
+
+
+
+
+/**
+ * 
+ * RESPONSIVE GRID
+ * 
+ * BOOTSTRAP.css
+ * @source ==> http://getbootstrap.com/css/#grid
+ * 
+ */
+
+/** responsive reference **/
+Extra small devices Phones (<768px)
+Small devices Tablets (≥768px)
+Medium devices Desktops (≥992px)
+Large devices Desktops (≥1200px)
+
++-----------------------+-------------------+---------------+---------------+---------------+
+|	Screen Size			|	<768px			|	≥768px		|	≥992px		|	≥1200px		|
++-----------------------+-------------------+---------------+---------------+---------------+
+|	Container width		|	None (auto)		|	750px		|	970px		|	1170px		|
++-----------------------+-------------------+---------------+---------------+---------------+
+|	Class prefix		|	.col-xs-		|	.col-sm-	|	.col-md-	|	.col-lg-	|
++-----------------------+-------------------+---------------+---------------+---------------+
+
+
+
+/** hide elements **/
+< 544px				(extra small devices portrait phones)
+≥ 544px - < 768px	(small devices landscape phones)
+≥ 768px - < 992px	(medium devices tablets)
+≥ 992px - < 1200px	(large devices desktops)
+≥ 1200px			(extra large devices desktops )
+
+					  < 544px	  ≥ 544px <	  ≥ 768px <	  ≥ 992px <	  ≥ 1200px
+----------------+-----------------------------------------------------------------
+.hidden-xs-down	|		Hidden		Visible		Visible		Visible		Visible
+				|
+.hidden-sm-down	|		Hidden		Hidden		Visible		Visible		Visible
+				|
+.hidden-md-down	|		Hidden		Hidden		Hidden		Visible		Visible
+				|
+.hidden-lg-down	|		Hidden		Hidden		Hidden		Hidden		Visible
+				|
+.hidden-xl-down	|		Hidden		Hidden		Hidden		Hidden		Hidden
+				|
+.hidden-xs-up	|		Hidden		Hidden		Hidden		Hidden		Hidden
+				|
+.hidden-sm-up	|		Visible		Hidden		Hidden		Hidden		Hidden
+				|
+.hidden-md-up	|		Visible		Visible		Hidden		Hidden		Hidden
+				|
+.hidden-lg-up	|		Visible		Visible		Visible		Hidden		Hidden
+				|
+.hidden-xl-up	|		Visible		Visible		Visible		Visible		Hidden
+
+
+
+
+
+
+/**
+ * 
+ * RESPONSIVE GRID
+ * 
+ * Portrait VS Landscape - Responsive Media Queries
+ * @source ==> https://1stwebdesigner.com/responsive-design-breakpoints/
+ * 
+ * 		smaller than 768 px
+ * 		smaller than 1024 px
+ * 		larger than 1024 px
+ * 
+ */
+
+/** tablet **/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {}
+
+/** tablet portrait **/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {}
+
+/** tablet landscape **/
+@media only screen and (min-devive-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {}
+
+/** mobile **/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {}
+
+/** mobile portrait **/
+@media only screen and (max-device-width : 320px) {}
+
+/** mobile landscape **/
+@media only screen and (min-device-width : 321px) {}
+
+
+
+
+
+/**
+ * 
+ * TYPOGRAPHY 
+ *
+ * REM: Relative EM
+ * @source: https://gregrickaby.com/2013/05/using-the-golden-ratio-and-rems/
+ * 
+ **/
+
+/** setting BASE FONT **/
+$fontbase = 16
+$line-height-base = 26
+
+//
+html {
+	font-size: 62.5%;		// 16px base * 62.5% = 10px root
+}
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;		// fallback 16px
+    font-size: 1.6rem;		// font ~ 16px
+    line-height: 1.625;		// $line-height-base / $fontbase
+}
+h1,
+h2 {
+    font-size: 26px;		// fallback 26px
+    font-size: 2.6rem;		// font ~ 26px
+    line-height: 1;			// $line-height-base / 26
+}
+h3,
+h4 {
+    font-size: 18px;		// fallback 18px
+    font-size: 1.8rem;		// font ~ 18px
+    line-height: 1.444		// $line-height-base / 18
+}
+
+/** setting VERTICAL RHYTHM **/
+$rembase = 1
+$line-height-base = 26
+
+// target: 24px to maintain vertical rhythm
+.some-div {
+     margin: 2.4rem 0;		// 24 / $rembase
+}
+
+// target: 48px to maintain vertical rhythm
+.another-div {
+    padding: 4.8rem;		// 48 / $rembase
+    margin-bottom: 2.4rem;	// 24 / $rembase
+}
+
+
+
+
+
+/**
+ * 
+ * TYPOGRAPHY
+ * 
+ * Modular Scale Typography
+ * @source =>
+ * 
+ */
+
+/** modular scale: system **/
+LARGER
+	val1 x ratio = val2
+	val2 x ratio = val3
+	val3 x ratio = val4
+	val4 x ratio = val5
+
+SMALLER
+	val1 x ratio = val2
+	val2 x ratio = val3
+	val3 x ratio = val4
+	val4 x ratio = val5
+
+
+
+/** modular scale: em's **/
+LARGER
+	1em × 1.125em = 1.125em
+	1.125em × 1.125em = 1.266em
+	1.266em × 1.125em = 1.424em
+	1.424em × 1.125em = 1.602em
+
+SMALLER
+	1em / 1.125em = 0.889em
+	0.889em / 1.125em = 0.790em
+	0.790em / 1.125em = 0.702em
+	0.702em / 1.125em = 0.624em
+
+
+
+Let’s use 1.125 as our minimum scale and do the same calculations for 1.250 as our
+maximum scale. We’d then apply different steps in the scale to our heading levels.
+	Minimum scale: 1.125
+	Maximum scale: 1.250
+
+
+
+/** calculatinvg base font size **/
+html {
+					[min font size]						  [min screen size]
+						  |										  |
+						  |										  |
+	font-size: calc(    16px    +    (24 - 16)    *    (100vw - 400px)    /    (800px - 400px) );
+										 |											  |
+										 |											  |
+	   					  [max font size – min font size]			 [max screen size - min screen size]
+}
+
+
+
+/* EXAMPLE */
+
+html { font-size: 16px; }
+
+@media screen and (min-width: 25em){
+	html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+}
+
+@media screen and (min-width: 50em){
+	html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+}
+
+
+
+
+
+/**
+ * 
+ * TYPOGRAPHY
+ * 
+ * fluid typography using 'viewport units'
+ * @source => https://www.smashingmagazine.com/2016/05/fluid-typography/
+ * 
+ */
+
+In his book The Elements of Typographic Style, Robert Bringhurst suggests that a
+comfortable line length is around 45 to 75 characters (≤ 80 characters max ?):
+
+	"Anything from 45 to 75 characters is widely regarded as a satisfactory length of
+	line for a single-column page set in a serifed text face in a text size. The
+	66-character line (counting both letters and spaces) is widely regarded as ideal."
+	- Robert Bringhurst
+
+/** container width of screen / for white space or margin space **/
+98% for single column mobile narrow views
+92% for large mobile or tablet displays/screens
+80% for largest desktop displays, makes sure line length does not run on too long
+
+
+
+/** 80 character word range **/
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum metus.	// 80 char ~ 11 words
+Nulla vel porttitor dolor, quis placerat lorem. Maecenas purus enim, viverra id.	// 80 char ~ 12 words
+Nunc porttitor nisl id nunc vehicula, vitae pretium nisi porta. Nunc in posuere.	// 80 char ~ 13 words
+Etiam accumsan pretium mollis. Vivamus aliquet ultricies risus sed orci aliquam.	// 80 char ~ 11 words
+Nullam id molestie purus. Donec tincidunt posuere eros pretium varius. Nam amet.	// 80 char ~ 12 words
+Morbi ac sapien ac mi placerat iaculis. Nulla facilisi. Duis imperdiet est amet.	// 80 char ~ 13 words
+Vivamus urna dolor, elementum pretium sapien quis, iaculis scelerisque volutpat.	// 80 char ~ 10 words
+Aenean id arcu sodales eros feugiat vulputate. Aliquam tempus aliquam justo sed.	// 80 char ~ 12 words
+Ut eu eleifend tellus. Aenean orci metus, mollis in libero ut, scelerisque amet.	// 80 char ~ 16 words
+Proin nec consequat metus. Fusce purus sem, convallis ac nunc vel viverra fusce.	// 80 char ~ 13 words
+
+	// 80 characters yield a 10 - 16 word range using a pregenerated 'lorem ipsum' text
+	// for extra padding, assume 80 characters yields about 5 – 21 words per line
+
+
+
+
+
+
+
+
+
+
+
+
+

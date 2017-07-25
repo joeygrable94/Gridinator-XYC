@@ -1,0 +1,160 @@
+/**
+ * 
+ * FUNCTIONS
+ * 
+ */
+// calculateColumns
+@function calculateColumns($gcolInt) {
+	@return 100% / $gcolInt;
+}
+
+// spanWidth
+@function spanWidth($oneColWidth, $spanRange) {
+	@return $oneColWidth * $spanRange;
+}
+
+
+
+
+
+/**
+ * 
+ * GX
+ * 
+ * @gcol-#	1,2,3,4,5,6,7,8,9,10,12,14,15,20,24,25
+ * 
+ */
+.gx {
+
+	width: 100%;
+
+	/** .gx.gcol-25 **/
+	@for $i from 1 through 25 {
+		&.gcol-25 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(25), $i);
+			}
+		}
+	}
+	/** .gx.gcol-24 **/
+	@for $i from 1 through 24 {
+		&.gcol-24 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(24), $i);
+			}
+		}
+	}
+	/** .gx.gcol-20 **/
+	@for $i from 1 through 20 {
+		&.gcol-20 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(20), $i);
+			}
+		}
+	}
+	/** .gx.gcol-15 **/
+	@for $i from 1 through 15 {
+		&.gcol-15 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(15), $i);
+			}
+		}
+	}
+	/** .gx.gcol-14 **/
+	@for $i from 1 through 14 {
+		&.gcol-14 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(14), $i);
+			}
+		}
+	}
+	/** .gx.gcol-12 **/
+	@for $i from 1 through 12 {
+		&.gcol-12 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(12), $i);
+			}
+		}
+	}
+	/** .gx.gcol-10 **/
+	@for $i from 1 through 10 {
+		&.gcol-10 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(10), $i);
+			}
+		}
+	}
+	/** .gx.gcol-9 **/
+	@for $i from 1 through 9 {
+		&.gcol-9 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(9), $i);
+			}
+		}
+	}
+	/** .gx.gcol-8 **/
+	@for $i from 1 through 8 {
+		&.gcol-8 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(8), $i);
+			}
+		}
+	}
+	/** .gx.gcol-7 **/
+	@for $i from 1 through 7 {
+		&.gcol-7 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(7), $i);
+			}
+		}
+	}
+	/** .gx.gcol-6 **/
+	@for $i from 1 through 6 {
+		&.gcol-6 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(6), $i);
+			}
+		}
+	}
+	/** .gx.gcol-5 **/
+	@for $i from 1 through 5 {
+		&.gcol-5 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(5), $i);
+			}
+		}
+	}
+	/** .gx.gcol-4 **/
+	@for $i from 1 through 4 {
+		&.gcol-4 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(4), $i);
+			}
+		}
+	}
+	/** .gx.gcol-3 **/
+	@for $i from 1 through 3 {
+		&.gcol-3 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(3), $i);
+			}
+		}
+	}
+	/** .gx.gcol-2 **/
+	@for $i from 1 through 2 {
+		&.gcol-2 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(2), $i);
+			}
+		}
+	}
+	/** .gx.gcol-1 **/
+	@for $i from 1 through 1 {
+		&.gcol-1 > .span {
+			&-#{$i} {
+				width: spanWidth(calculateColumns(1), $i);
+			}
+		}
+	}
+
+}

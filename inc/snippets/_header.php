@@ -3,7 +3,7 @@
 <head>
 
 	<!-- meta -->
-	<title>gridinator xyc</title>
+	<title>gridinator xyc | <?php echo $page; ?></title>
 	<meta charset="utf-8" author="Joey Grable">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
@@ -13,15 +13,15 @@
 
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="./inc/css/main.css">
-	<!--<link rel="stylesheet" type="text/css" href="./inc/css/typographic-base.css">-->
 	<link rel="stylesheet" type="text/css" href="./inc/css/custom.css">
 
-	<!--<link rel="stylesheet" type="text/css" href="./inc/css/vendor/typebase/typebase.css">-->
-	<link rel="stylesheet" type="text/css" href="./inc/css/vendor/typesettings/typesettings.css">
-	<!--<link rel="stylesheet" type="text/css" href="./inc/css/vendor/modularscale/modularscale.css">-->
+	<!--<link rel="stylesheet" type="text/css" href="./inc/vendors/baseline-typography/baseline-typography.css">-->
+	<!--<link rel="stylesheet" type="text/css" href="./inc/vendors/typebase/typebase.css">-->
+	<link rel="stylesheet" type="text/css" href="./inc/vendors/typesettings/typesettings.css">
+	<!--<link rel="stylesheet" type="text/css" href="./inc/vendors/modularscale/modularscale.css">-->
 
 </head>
-<body class="">
+<body class="no-scrollbar">
 
 	<!-- wrap -->
 	<div class="gy gflex grow-vh-100 gx gcol-12">
@@ -48,4 +48,4 @@
 		<!-- END navigation -->
 		<!-- content -->
 		<div class="span-10">
-			<div class="gy gc gy-scroll">
+			<div class="gy gy-scroll">
