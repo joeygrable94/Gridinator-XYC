@@ -1,0 +1,67 @@
+/**
+ * 
+ * FUNCTIONS
+ * 
+ */
+// calculateColumns
+@function calculateColumnWidth($gcolInt) {
+	@return 100% / $gcolInt;
+}
+
+// spanWidth
+@function spanWidth($oneColWidth, $spanRange) {
+	@return $oneColWidth * $spanRange;
+}
+
+
+
+
+
+/**
+ * 
+ * GX
+ * 
+ * @gcol-#	1,2,3,4,5,6,7,8,9,10,12,14,15,20,24,25
+ * 
+ */
+$gxGridSize: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 20, 24, 25;
+
+.gx {
+
+	width: 100%;
+
+	// loop all $breakpoints, create key
+	@each $breakpointKey, $breakpointWidth in $breakpoints {
+
+		// print a media query based on the $breakpointWidth
+		@media #{inspect(map-get($breakpoints, $breakpointKey))} {
+			
+			// loop each $gxGridSize
+			@each $totalGridColumns in $gxGridSize {
+
+				// index the $maxNumColumns from the $totalGridColumns
+				$maxNumColumns: index($gxGridSize, $totalGridColumns);
+
+				// add class for each $totalGridColumns
+				&.gcol-#{$totalGridColumns} {
+					/** .gx.gcol-#{$totalGridColumns} **/
+
+					// loop each $columnSpan from 1 to the number of $totalGridColumns
+					@for $columnSpan from 1 through $totalGridColumns {
+
+						// create span class for each $breakpointKey--$columnSpan
+						& > .span-#{$columnSpan},
+						& > .#{$breakpointKey}-span-#{$columnSpan} {
+							/** > .#{$breakpointKey}-span-#{$columnSpan} **/
+
+							// calculate the $spanWidth of each columnSpan by calculateColumnWidth of the $maxNumColumns
+							width: spanWidth(calculateColumnWidth($maxNumColumns), $columnSpan);
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+}

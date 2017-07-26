@@ -1,14 +1,14 @@
 /** CONTAINERS **/
-.contain { margin: 0 auto; }
-
-	/** pixels **/
-	.contain.c1920	{	max-width: $breakpoint-1920;	}
-	.contain.c1320	{	max-width: $breakpoint-1320;	}
-	.contain.c1440	{	max-width: $breakpoint-1440;	}
-	.contain.c1260	{	max-width: $breakpoint-1260;	}
-	.contain.c1080	{	max-width: $breakpoint-1080;	}
-	.contain.c960	{	max-width: $breakpoint-960;		}
-	.contain.c840	{	max-width: $breakpoint-840;		}
-	.contain.c720	{	max-width: $breakpoint-720;		}
-	.contain.c540	{	max-width: $breakpoint-540;		}
-	.contain.c480	{	max-width: $breakpoint-480;		}
+.contain {
+	margin: auto; 
+	&.c1920	{	max-width: $breakpoint-1920;	}
+	&.c1320	{	max-width: $breakpoint-1320;	}
+	&.c1440	{	max-width: $breakpoint-1440;	}
+	&.c1260	{	max-width: $breakpoint-1260;	}
+	&.c1080	{	max-width: $breakpoint-1080;	}
+	&.c960	{	max-width: $breakpoint-960;		}
+	&.c840	{	max-width: $breakpoint-840;		}
+	&.c720	{	max-width: $breakpoint-720;		}
+	&.c540	{	max-width: $breakpoint-540;		}
+	&.c480	{	max-width: $breakpoint-480;		}
+}

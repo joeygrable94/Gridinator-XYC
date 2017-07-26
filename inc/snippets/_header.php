@@ -17,7 +17,7 @@
 
 	<!--<link rel="stylesheet" type="text/css" href="./inc/vendors/baseline-typography/baseline-typography.css">-->
 	<!--<link rel="stylesheet" type="text/css" href="./inc/vendors/typebase/typebase.css">-->
-	<link rel="stylesheet" type="text/css" href="./inc/vendors/typesettings/typesettings.css">
+	<link rel="stylesheet" type="text/css" href="./inc/css/vendors/typesettings/typesettings.css">
 	<!--<link rel="stylesheet" type="text/css" href="./inc/vendors/modularscale/modularscale.css">-->
 
 </head>

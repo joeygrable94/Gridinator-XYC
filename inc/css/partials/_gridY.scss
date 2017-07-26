@@ -104,7 +104,7 @@ align-content:;
 
 	/** viewport height **/
 	@for $i from 1 through 100 {
-		& .grow-vh {
+		&.grow-vh {
 			&-#{$i} {
 				height: unquote("#{$i}vh");
 			}
@@ -112,7 +112,7 @@ align-content:;
 	}
 	/** percent **/
 	@for $i from 1 through 100 {
-		& .grow-pct {
+		&.grow-pct {
 			&-#{$i} {
 				height: unquote("#{$i}%");;
 			}
@@ -120,7 +120,7 @@ align-content:;
 	}
 	/** pixel **/
 	@for $i from 1 through 100 {
-		& .grow-px {
+		&.grow-px {
 			&-#{$i} {
 				height: unquote("#{$i}px");;
 			}
@@ -128,7 +128,7 @@ align-content:;
 	}
 	/** point: increment 1 **/
 	@for $i from 1 through 100 {
-		& .grow-pt {
+		&.grow-pt {
 			&-#{$i} {
 				height: unquote("#{$i}pt");;
 			}
@@ -138,7 +138,7 @@ align-content:;
 	$ptIncr-10: 10;
 	@for $i from 1 through 30 {
 		$ptVal: $ptIncr-10 * $i;
-		& .grow-pt {
+		&.grow-pt {
 			&-#{$ptVal} {
 				height: unquote("#{$ptVal}pt");
 			}
@@ -146,7 +146,7 @@ align-content:;
 	}
 	/** inch: increment 1 **/
 	@for $i from 1 through 25 {
-		& .grow-in {
+		&.grow-in {
 			&-#{$i} {
 				height: $inch-base * $i;
 			}

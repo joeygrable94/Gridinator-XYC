@@ -46,6 +46,15 @@
 	$breakpoint-540: 540px;
 	$breakpoint-480: 480px;
 
+// Responsive variables
+$breakpoints: (
+	'xs':	( min-width:  480px ),
+	'sm':	( min-width:  767px ),
+	'md':	( min-width:  992px ),
+	'lg':	( min-width: 1200px ),
+	'xl':	( min-width: 1920px ),
+) !default;
+
 
 
 /**

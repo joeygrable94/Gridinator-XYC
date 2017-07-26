@@ -1,4 +1,8 @@
+// charset
 @charset "UTF-8";
+
+// SCSS Utilities
+//@import "utilities/utilities";
 
 // Modules and Variables
 @import "partials/variables";
@@ -15,9 +19,3 @@
 
 // Content Styles
 @import "partials/typography";
-
-// Third-party
-// @import "vendor/";
-
-// Responsive
-// @import "partials/responsive";

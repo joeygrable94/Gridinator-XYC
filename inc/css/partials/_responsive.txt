@@ -211,6 +211,56 @@ Large devices Desktops (≥1200px)
 
 /**
  * 
+ * SCSS responsive mixin
+ * 
+ * @mixin ==> @include
+ * @author Hugo Giraudel
+ * @param {String} $breakpoint
+ * @require $breakpoints
+ * 
+ */
+
+// variables
+$breakpoints: (
+	'xs':	( min-width:  480px ),
+	'sm':	( min-width:  767px ),
+	'md':	( min-width:  992px ),
+	'lg':	( min-width: 1200px ),
+	'xl':	( min-width: 1920px ),
+) !default;
+
+// Mixin to manage responsive breakpoints
+@mixin respond-to($breakpoint) {
+	// If the key exists in the map
+	@if map-has-key($breakpoints, $breakpoint) {
+		// Prints a media query based on the value
+		@media #{inspect(map-get($breakpoints, $breakpoint))} {
+			@content;
+		}
+	}
+	// If the key doesn't exist in the map
+	@else {
+		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+			+ "Available breakpoints are: #{map-keys($breakpoints)}.";
+	}
+}
+
+// implementation
+.selector {
+	// styles
+	// include
+	@include respond-to('small') {
+		// responsive styles
+		color: blue;
+	}
+}
+
+
+
+
+
+/**
+ * 
  * TYPOGRAPHY 
  *
  * REM: Relative EM
